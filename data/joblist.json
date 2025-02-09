@@ -1,1 +1,949 @@
-"{'Senior API Platform Solutions Design Engineer\\n                                                                        \\n                                but are not limited to the following: Lead the design, development, deployment and rollout of enhancements on the API Platform, both in the cloud and on premise.Participate in the design of delivery solutions, ensuring alignment with b[...]': {'Location': '\\n                    Toronto, ON                ', 'info': '\\n                                but are not limited to the following: Lead the design, development, deployment and rollout of enhancements on the API Platform, both in the cloud and on premise.Participate in the design of delivery solutions, ensuring alignment with b[...]                            '}, 'Project Support Manager\\n                                                                        \\n                                Do you want to work with an up-beat Program Management Office (Advance Program Management Office) a team who values learning and teamwork, supports and cares about each other, and works in a dynamic virtual environment from home? Does [...]': {'Location': '\\n                    Surrey, BC                ', 'info': '\\n                                Do you want to work with an up-beat Program Management Office (Advance Program Management Office) a team who values learning and teamwork, supports and cares about each other, and works in a dynamic virtual environment from home? Does [...]                            '}, 'Project Coordinator\\n                                                                        \\n                                We are currently looking to fill a Full Time opportunity for a Project Coordinator at Central City located in Surrey, BC. As a Project Coordinator, you will work as a key member of the Advance Program, collaborating with managers and s[...]': {'Location': '\\n                    Surrey, BC                ', 'info': '\\n                                We are currently looking to fill a Full Time opportunity for a Project Coordinator at Central City located in Surrey, BC. As a Project Coordinator, you will work as a key member of the Advance Program, collaborating with managers and s[...]                            '}, \"Corporate Digital Account Executive\\n                                                                        \\n                                Corporate Digital Account Executive What you'll do: The Account Executive (AE) role empowers customers to achieve their full potential by strategically positioning SAP cloud solutions to address their unique business challenges and lay[...]\": {'Location': '\\n                    Vancouver, BC                ', 'info': \"\\n                                Corporate Digital Account Executive What you'll do: The Account Executive (AE) role empowers customers to achieve their full potential by strategically positioning SAP cloud solutions to address their unique business challenges and lay[...]                            \"}, \"Software Engineer II\\n                                                                        \\n                                We are looking for a Software Engineer II to drive our efforts in areas ranging from performance, mobile architecture, and customer growth on Android and iOS platform. This position is with the Microsoft Teams' mobile clients team whic[...]\": {'Location': '\\n                    Vancouver, BC                ', 'info': \"\\n                                We are looking for a Software Engineer II to drive our efforts in areas ranging from performance, mobile architecture, and customer growth on Android and iOS platform. This position is with the Microsoft Teams' mobile clients team whic[...]                            \"}, \"Senior Software Engineer\\n                                                                        \\n                                We are looking to hire a Senior Software Engineer for our collaborative, innovative and fast-moving team that has delivered some of Bing's most exciting features, and we're just getting warmed up! Our mission is to build a loyal user b[...]\": {'Location': '\\n                    Vancouver, BC                ', 'info': \"\\n                                We are looking to hire a Senior Software Engineer for our collaborative, innovative and fast-moving team that has delivered some of Bing's most exciting features, and we're just getting warmed up! Our mission is to build a loyal user b[...]                            \"}, 'Senior Software Engineer (Backend)\\n                                                                        \\n                                We are seeking a talented Senior Software Engineer (Backend) to join our team for our next-generation AI-Powered Contact Center Applications. In this role, you will lead the design, development, and implementation of intelligent large-[...]': {'Location': '\\n                    Vancouver, BC                ', 'info': '\\n                                We are seeking a talented Senior Software Engineer (Backend) to join our team for our next-generation AI-Powered Contact Center Applications. In this role, you will lead the design, development, and implementation of intelligent large-[...]                            '}, 'Senior Software Development Engineer, Aurora Cp - Availability\\n                                                                        \\n                                As an SDE III on Aurora Availability team, you will design and implement software components and enhance existing components to help us continuously improve and evolve to meet growing availability demands from our customers.We are look[...]': {'Location': '\\n                    Vancouver, BC                ', 'info': '\\n                                As an SDE III on Aurora Availability team, you will design and implement software components and enhance existing components to help us continuously improve and evolve to meet growing availability demands from our customers.We are look[...]                            '}, 'Cloud Deal Desk Manager\\n                                                                        \\n                                Your impact:As a Cloud Deal Desk Manager , you will be responsible for drafting and negotiating cloud service agreements including product schedules and orders with associated terms and conditions working alongside our legal department[...]': {'Location': '\\n                    Anywhere - Canada                ', 'info': '\\n                                Your impact:As a Cloud Deal Desk Manager , you will be responsible for drafting and negotiating cloud service agreements including product schedules and orders with associated terms and conditions working alongside our legal department[...]                            '}}"
+[
+    [
+        {
+            "Senior API Platform Solutions Design Engineer": {
+                "Location": "Toronto, ON",
+                "info": "but are not limited to the following: Lead the design, development, deployment and rollout of enhancements on the API Platform, both in the cloud and on premise.Participate in the design of delivery solutions, ensuring alignment with b[...]",
+                "link": "https://www.itjobs.ca/en/offer/on/toronto/senior-api-platform-solutions-design-engineer/943e4e33-58f2-40ea-999e-1ac20b06efce_en/"
+            }
+        },
+        {
+            "Project Support Manager": {
+                "Location": "Surrey, BC",
+                "info": "Do you want to work with an up-beat Program Management Office (Advance Program Management Office) a team who values learning and teamwork, supports and cares about each other, and works in a dynamic virtual environment from home? Does [...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/surrey/project-support-manager/65c69ac0-5a25-4b54-9c7a-5839e8b33122_en/"
+            }
+        },
+        {
+            "Project Support Manager": {
+                "Location": "Surrey, BC",
+                "info": "Do you want to work with an up-beat Program Management Office (Advance Program Management Office) a team who values learning and teamwork, supports and cares about each other, and works in a dynamic virtual environment from home? Does [...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/surrey/project-support-manager/7ad2a76d-4e9d-483d-8aef-95f75a8fd9e9_en/"
+            }
+        },
+        {
+            "Project Coordinator": {
+                "Location": "Surrey, BC",
+                "info": "We are currently looking to fill a Full Time opportunity for a Project Coordinator at Central City located in Surrey, BC. As a Project Coordinator, you will work as a key member of the Advance Program, collaborating with managers and s[...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/surrey/project-coordinator/2b3ee3da-d74f-4539-b915-1abb9c1c8240_en/"
+            }
+        },
+        {
+            "Corporate Digital Account Executive": {
+                "Location": "Vancouver, BC",
+                "info": "Corporate Digital Account Executive What you'll do: The Account Executive (AE) role empowers customers to achieve their full potential by strategically positioning SAP cloud solutions to address their unique business challenges and lay[...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/vancouver/corporate-digital-account-executive/8480af02-fca8-4dad-80fe-9bd5ce47e9ff_en/"
+            }
+        },
+        {
+            "Software Engineer II": {
+                "Location": "Vancouver, BC",
+                "info": "We are looking for a Software Engineer II to drive our efforts in areas ranging from performance, mobile architecture, and customer growth on Android and iOS platform. This position is with the Microsoft Teams' mobile clients team whic[...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/vancouver/software-engineer-ii/75cec662-8f0c-4393-a97c-c9a1ece43e2b_en/"
+            }
+        },
+        {
+            "Senior Software Engineer": {
+                "Location": "Vancouver, BC",
+                "info": "We are looking to hire a Senior Software Engineer for our collaborative, innovative and fast-moving team that has delivered some of Bing's most exciting features, and we're just getting warmed up! Our mission is to build a loyal user b[...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/vancouver/senior-software-engineer/57718292-33f3-4cb4-ad80-47a699f70184_en/"
+            }
+        },
+        {
+            "Senior Software Engineer (Backend)": {
+                "Location": "Vancouver, BC",
+                "info": "We are seeking a talented Senior Software Engineer (Backend) to join our team for our next-generation AI-Powered Contact Center Applications. In this role, you will lead the design, development, and implementation of intelligent large-[...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/vancouver/senior-software-engineer-backend/12b9d64e-7715-4cd1-b3da-c2ac40d6f66d_en/"
+            }
+        },
+        {
+            "Senior Software Development Engineer, Aurora Cp - Availability": {
+                "Location": "Vancouver, BC",
+                "info": "As an SDE III on Aurora Availability team, you will design and implement software components and enhance existing components to help us continuously improve and evolve to meet growing availability demands from our customers.We are look[...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/vancouver/senior-software-development-engineer-aurora-cp-availability/4854fc3f-c5cc-4b1b-b414-5f15174a99fb_en/"
+            }
+        },
+        {
+            "Cloud Deal Desk Manager": {
+                "Location": "Anywhere - Canada",
+                "info": "Your impact:As a Cloud Deal Desk Manager , you will be responsible for drafting and negotiating cloud service agreements including product schedules and orders with associated terms and conditions working alongside our legal department[...]",
+                "link": "https://www.itjobs.ca/en/offer/ca/anywhere/cloud-deal-desk-manager/22cab3e0-ea4d-47c1-93d9-b7dd4156644d_en/"
+            }
+        }
+    ],
+    [],
+    [
+        {
+            "Senior API Platform Solutions Design Engineer": {
+                "Location": "Toronto, ON",
+                "info": "but are not limited to the following: Lead the design, development, deployment and rollout of enhancements on the API Platform, both in the cloud and on premise.Participate in the design of delivery solutions, ensuring alignment with b[...]",
+                "link": "https://www.itjobs.ca/en/offer/on/toronto/senior-api-platform-solutions-design-engineer/943e4e33-58f2-40ea-999e-1ac20b06efce_en/"
+            }
+        },
+        {
+            "Project Support Manager": {
+                "Location": "Surrey, BC",
+                "info": "Do you want to work with an up-beat Program Management Office (Advance Program Management Office) a team who values learning and teamwork, supports and cares about each other, and works in a dynamic virtual environment from home? Does [...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/surrey/project-support-manager/65c69ac0-5a25-4b54-9c7a-5839e8b33122_en/"
+            }
+        },
+        {
+            "Project Support Manager": {
+                "Location": "Surrey, BC",
+                "info": "Do you want to work with an up-beat Program Management Office (Advance Program Management Office) a team who values learning and teamwork, supports and cares about each other, and works in a dynamic virtual environment from home? Does [...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/surrey/project-support-manager/7ad2a76d-4e9d-483d-8aef-95f75a8fd9e9_en/"
+            }
+        },
+        {
+            "Project Coordinator": {
+                "Location": "Surrey, BC",
+                "info": "We are currently looking to fill a Full Time opportunity for a Project Coordinator at Central City located in Surrey, BC. As a Project Coordinator, you will work as a key member of the Advance Program, collaborating with managers and s[...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/surrey/project-coordinator/2b3ee3da-d74f-4539-b915-1abb9c1c8240_en/"
+            }
+        },
+        {
+            "Corporate Digital Account Executive": {
+                "Location": "Vancouver, BC",
+                "info": "Corporate Digital Account Executive What you'll do: The Account Executive (AE) role empowers customers to achieve their full potential by strategically positioning SAP cloud solutions to address their unique business challenges and lay[...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/vancouver/corporate-digital-account-executive/8480af02-fca8-4dad-80fe-9bd5ce47e9ff_en/"
+            }
+        },
+        {
+            "Software Engineer II": {
+                "Location": "Vancouver, BC",
+                "info": "We are looking for a Software Engineer II to drive our efforts in areas ranging from performance, mobile architecture, and customer growth on Android and iOS platform. This position is with the Microsoft Teams' mobile clients team whic[...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/vancouver/software-engineer-ii/75cec662-8f0c-4393-a97c-c9a1ece43e2b_en/"
+            }
+        },
+        {
+            "Senior Software Engineer": {
+                "Location": "Vancouver, BC",
+                "info": "We are looking to hire a Senior Software Engineer for our collaborative, innovative and fast-moving team that has delivered some of Bing's most exciting features, and we're just getting warmed up! Our mission is to build a loyal user b[...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/vancouver/senior-software-engineer/57718292-33f3-4cb4-ad80-47a699f70184_en/"
+            }
+        },
+        {
+            "Senior Software Engineer (Backend)": {
+                "Location": "Vancouver, BC",
+                "info": "We are seeking a talented Senior Software Engineer (Backend) to join our team for our next-generation AI-Powered Contact Center Applications. In this role, you will lead the design, development, and implementation of intelligent large-[...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/vancouver/senior-software-engineer-backend/12b9d64e-7715-4cd1-b3da-c2ac40d6f66d_en/"
+            }
+        },
+        {
+            "Senior Software Development Engineer, Aurora Cp - Availability": {
+                "Location": "Vancouver, BC",
+                "info": "As an SDE III on Aurora Availability team, you will design and implement software components and enhance existing components to help us continuously improve and evolve to meet growing availability demands from our customers.We are look[...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/vancouver/senior-software-development-engineer-aurora-cp-availability/4854fc3f-c5cc-4b1b-b414-5f15174a99fb_en/"
+            }
+        },
+        {
+            "Cloud Deal Desk Manager": {
+                "Location": "Anywhere - Canada",
+                "info": "Your impact:As a Cloud Deal Desk Manager , you will be responsible for drafting and negotiating cloud service agreements including product schedules and orders with associated terms and conditions working alongside our legal department[...]",
+                "link": "https://www.itjobs.ca/en/offer/ca/anywhere/cloud-deal-desk-manager/22cab3e0-ea4d-47c1-93d9-b7dd4156644d_en/"
+            }
+        }
+    ],
+    [
+        {
+            "Senior API Platform Solutions Design Engineer": {
+                "Location": "Toronto, ON",
+                "info": "but are not limited to the following: Lead the design, development, deployment and rollout of enhancements on the API Platform, both in the cloud and on premise.Participate in the design of delivery solutions, ensuring alignment with b[...]",
+                "link": "https://www.itjobs.ca/en/offer/on/toronto/senior-api-platform-solutions-design-engineer/943e4e33-58f2-40ea-999e-1ac20b06efce_en/"
+            }
+        },
+        {
+            "Project Support Manager": {
+                "Location": "Surrey, BC",
+                "info": "Do you want to work with an up-beat Program Management Office (Advance Program Management Office) a team who values learning and teamwork, supports and cares about each other, and works in a dynamic virtual environment from home? Does [...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/surrey/project-support-manager/65c69ac0-5a25-4b54-9c7a-5839e8b33122_en/"
+            }
+        },
+        {
+            "Project Support Manager": {
+                "Location": "Surrey, BC",
+                "info": "Do you want to work with an up-beat Program Management Office (Advance Program Management Office) a team who values learning and teamwork, supports and cares about each other, and works in a dynamic virtual environment from home? Does [...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/surrey/project-support-manager/7ad2a76d-4e9d-483d-8aef-95f75a8fd9e9_en/"
+            }
+        },
+        {
+            "Project Coordinator": {
+                "Location": "Surrey, BC",
+                "info": "We are currently looking to fill a Full Time opportunity for a Project Coordinator at Central City located in Surrey, BC. As a Project Coordinator, you will work as a key member of the Advance Program, collaborating with managers and s[...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/surrey/project-coordinator/2b3ee3da-d74f-4539-b915-1abb9c1c8240_en/"
+            }
+        },
+        {
+            "Corporate Digital Account Executive": {
+                "Location": "Vancouver, BC",
+                "info": "Corporate Digital Account Executive What you'll do: The Account Executive (AE) role empowers customers to achieve their full potential by strategically positioning SAP cloud solutions to address their unique business challenges and lay[...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/vancouver/corporate-digital-account-executive/8480af02-fca8-4dad-80fe-9bd5ce47e9ff_en/"
+            }
+        },
+        {
+            "Software Engineer II": {
+                "Location": "Vancouver, BC",
+                "info": "We are looking for a Software Engineer II to drive our efforts in areas ranging from performance, mobile architecture, and customer growth on Android and iOS platform. This position is with the Microsoft Teams' mobile clients team whic[...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/vancouver/software-engineer-ii/75cec662-8f0c-4393-a97c-c9a1ece43e2b_en/"
+            }
+        },
+        {
+            "Senior Software Engineer": {
+                "Location": "Vancouver, BC",
+                "info": "We are looking to hire a Senior Software Engineer for our collaborative, innovative and fast-moving team that has delivered some of Bing's most exciting features, and we're just getting warmed up! Our mission is to build a loyal user b[...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/vancouver/senior-software-engineer/57718292-33f3-4cb4-ad80-47a699f70184_en/"
+            }
+        },
+        {
+            "Senior Software Engineer (Backend)": {
+                "Location": "Vancouver, BC",
+                "info": "We are seeking a talented Senior Software Engineer (Backend) to join our team for our next-generation AI-Powered Contact Center Applications. In this role, you will lead the design, development, and implementation of intelligent large-[...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/vancouver/senior-software-engineer-backend/12b9d64e-7715-4cd1-b3da-c2ac40d6f66d_en/"
+            }
+        },
+        {
+            "Senior Software Development Engineer, Aurora Cp - Availability": {
+                "Location": "Vancouver, BC",
+                "info": "As an SDE III on Aurora Availability team, you will design and implement software components and enhance existing components to help us continuously improve and evolve to meet growing availability demands from our customers.We are look[...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/vancouver/senior-software-development-engineer-aurora-cp-availability/4854fc3f-c5cc-4b1b-b414-5f15174a99fb_en/"
+            }
+        },
+        {
+            "Cloud Deal Desk Manager": {
+                "Location": "Anywhere - Canada",
+                "info": "Your impact:As a Cloud Deal Desk Manager , you will be responsible for drafting and negotiating cloud service agreements including product schedules and orders with associated terms and conditions working alongside our legal department[...]",
+                "link": "https://www.itjobs.ca/en/offer/ca/anywhere/cloud-deal-desk-manager/22cab3e0-ea4d-47c1-93d9-b7dd4156644d_en/"
+            }
+        }
+    ],
+    [],
+    [
+        {
+            "Senior API Platform Solutions Design Engineer": {
+                "Location": "Toronto, ON",
+                "info": "but are not limited to the following: Lead the design, development, deployment and rollout of enhancements on the API Platform, both in the cloud and on premise.Participate in the design of delivery solutions, ensuring alignment with b[...]",
+                "link": "https://www.itjobs.ca/en/offer/on/toronto/senior-api-platform-solutions-design-engineer/943e4e33-58f2-40ea-999e-1ac20b06efce_en/"
+            }
+        },
+        {
+            "Project Support Manager": {
+                "Location": "Surrey, BC",
+                "info": "Do you want to work with an up-beat Program Management Office (Advance Program Management Office) a team who values learning and teamwork, supports and cares about each other, and works in a dynamic virtual environment from home? Does [...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/surrey/project-support-manager/65c69ac0-5a25-4b54-9c7a-5839e8b33122_en/"
+            }
+        },
+        {
+            "Project Support Manager": {
+                "Location": "Surrey, BC",
+                "info": "Do you want to work with an up-beat Program Management Office (Advance Program Management Office) a team who values learning and teamwork, supports and cares about each other, and works in a dynamic virtual environment from home? Does [...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/surrey/project-support-manager/7ad2a76d-4e9d-483d-8aef-95f75a8fd9e9_en/"
+            }
+        },
+        {
+            "Project Coordinator": {
+                "Location": "Surrey, BC",
+                "info": "We are currently looking to fill a Full Time opportunity for a Project Coordinator at Central City located in Surrey, BC. As a Project Coordinator, you will work as a key member of the Advance Program, collaborating with managers and s[...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/surrey/project-coordinator/2b3ee3da-d74f-4539-b915-1abb9c1c8240_en/"
+            }
+        },
+        {
+            "Corporate Digital Account Executive": {
+                "Location": "Vancouver, BC",
+                "info": "Corporate Digital Account Executive What you'll do: The Account Executive (AE) role empowers customers to achieve their full potential by strategically positioning SAP cloud solutions to address their unique business challenges and lay[...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/vancouver/corporate-digital-account-executive/8480af02-fca8-4dad-80fe-9bd5ce47e9ff_en/"
+            }
+        },
+        {
+            "Software Engineer II": {
+                "Location": "Vancouver, BC",
+                "info": "We are looking for a Software Engineer II to drive our efforts in areas ranging from performance, mobile architecture, and customer growth on Android and iOS platform. This position is with the Microsoft Teams' mobile clients team whic[...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/vancouver/software-engineer-ii/75cec662-8f0c-4393-a97c-c9a1ece43e2b_en/"
+            }
+        },
+        {
+            "Senior Software Engineer": {
+                "Location": "Vancouver, BC",
+                "info": "We are looking to hire a Senior Software Engineer for our collaborative, innovative and fast-moving team that has delivered some of Bing's most exciting features, and we're just getting warmed up! Our mission is to build a loyal user b[...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/vancouver/senior-software-engineer/57718292-33f3-4cb4-ad80-47a699f70184_en/"
+            }
+        },
+        {
+            "Senior Software Engineer (Backend)": {
+                "Location": "Vancouver, BC",
+                "info": "We are seeking a talented Senior Software Engineer (Backend) to join our team for our next-generation AI-Powered Contact Center Applications. In this role, you will lead the design, development, and implementation of intelligent large-[...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/vancouver/senior-software-engineer-backend/12b9d64e-7715-4cd1-b3da-c2ac40d6f66d_en/"
+            }
+        },
+        {
+            "Senior Software Development Engineer, Aurora Cp - Availability": {
+                "Location": "Vancouver, BC",
+                "info": "As an SDE III on Aurora Availability team, you will design and implement software components and enhance existing components to help us continuously improve and evolve to meet growing availability demands from our customers.We are look[...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/vancouver/senior-software-development-engineer-aurora-cp-availability/4854fc3f-c5cc-4b1b-b414-5f15174a99fb_en/"
+            }
+        },
+        {
+            "Cloud Deal Desk Manager": {
+                "Location": "Anywhere - Canada",
+                "info": "Your impact:As a Cloud Deal Desk Manager , you will be responsible for drafting and negotiating cloud service agreements including product schedules and orders with associated terms and conditions working alongside our legal department[...]",
+                "link": "https://www.itjobs.ca/en/offer/ca/anywhere/cloud-deal-desk-manager/22cab3e0-ea4d-47c1-93d9-b7dd4156644d_en/"
+            }
+        }
+    ],
+    [
+        {
+            "Senior API Platform Solutions Design Engineer": {
+                "Location": "Toronto, ON",
+                "info": "but are not limited to the following: Lead the design, development, deployment and rollout of enhancements on the API Platform, both in the cloud and on premise.Participate in the design of delivery solutions, ensuring alignment with b[...]",
+                "link": "https://www.itjobs.ca/en/offer/on/toronto/senior-api-platform-solutions-design-engineer/943e4e33-58f2-40ea-999e-1ac20b06efce_en/"
+            }
+        },
+        {
+            "Project Support Manager": {
+                "Location": "Surrey, BC",
+                "info": "Do you want to work with an up-beat Program Management Office (Advance Program Management Office) a team who values learning and teamwork, supports and cares about each other, and works in a dynamic virtual environment from home? Does [...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/surrey/project-support-manager/65c69ac0-5a25-4b54-9c7a-5839e8b33122_en/"
+            }
+        },
+        {
+            "Project Support Manager": {
+                "Location": "Surrey, BC",
+                "info": "Do you want to work with an up-beat Program Management Office (Advance Program Management Office) a team who values learning and teamwork, supports and cares about each other, and works in a dynamic virtual environment from home? Does [...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/surrey/project-support-manager/7ad2a76d-4e9d-483d-8aef-95f75a8fd9e9_en/"
+            }
+        },
+        {
+            "Project Coordinator": {
+                "Location": "Surrey, BC",
+                "info": "We are currently looking to fill a Full Time opportunity for a Project Coordinator at Central City located in Surrey, BC. As a Project Coordinator, you will work as a key member of the Advance Program, collaborating with managers and s[...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/surrey/project-coordinator/2b3ee3da-d74f-4539-b915-1abb9c1c8240_en/"
+            }
+        },
+        {
+            "Corporate Digital Account Executive": {
+                "Location": "Vancouver, BC",
+                "info": "Corporate Digital Account Executive What you'll do: The Account Executive (AE) role empowers customers to achieve their full potential by strategically positioning SAP cloud solutions to address their unique business challenges and lay[...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/vancouver/corporate-digital-account-executive/8480af02-fca8-4dad-80fe-9bd5ce47e9ff_en/"
+            }
+        },
+        {
+            "Software Engineer II": {
+                "Location": "Vancouver, BC",
+                "info": "We are looking for a Software Engineer II to drive our efforts in areas ranging from performance, mobile architecture, and customer growth on Android and iOS platform. This position is with the Microsoft Teams' mobile clients team whic[...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/vancouver/software-engineer-ii/75cec662-8f0c-4393-a97c-c9a1ece43e2b_en/"
+            }
+        },
+        {
+            "Senior Software Engineer": {
+                "Location": "Vancouver, BC",
+                "info": "We are looking to hire a Senior Software Engineer for our collaborative, innovative and fast-moving team that has delivered some of Bing's most exciting features, and we're just getting warmed up! Our mission is to build a loyal user b[...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/vancouver/senior-software-engineer/57718292-33f3-4cb4-ad80-47a699f70184_en/"
+            }
+        },
+        {
+            "Senior Software Engineer (Backend)": {
+                "Location": "Vancouver, BC",
+                "info": "We are seeking a talented Senior Software Engineer (Backend) to join our team for our next-generation AI-Powered Contact Center Applications. In this role, you will lead the design, development, and implementation of intelligent large-[...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/vancouver/senior-software-engineer-backend/12b9d64e-7715-4cd1-b3da-c2ac40d6f66d_en/"
+            }
+        },
+        {
+            "Senior Software Development Engineer, Aurora Cp - Availability": {
+                "Location": "Vancouver, BC",
+                "info": "As an SDE III on Aurora Availability team, you will design and implement software components and enhance existing components to help us continuously improve and evolve to meet growing availability demands from our customers.We are look[...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/vancouver/senior-software-development-engineer-aurora-cp-availability/4854fc3f-c5cc-4b1b-b414-5f15174a99fb_en/"
+            }
+        },
+        {
+            "Cloud Deal Desk Manager": {
+                "Location": "Anywhere - Canada",
+                "info": "Your impact:As a Cloud Deal Desk Manager , you will be responsible for drafting and negotiating cloud service agreements including product schedules and orders with associated terms and conditions working alongside our legal department[...]",
+                "link": "https://www.itjobs.ca/en/offer/ca/anywhere/cloud-deal-desk-manager/22cab3e0-ea4d-47c1-93d9-b7dd4156644d_en/"
+            }
+        }
+    ],
+    [
+        {
+            "Senior API Platform Solutions Design Engineer": {
+                "Location": "Toronto, ON",
+                "info": "but are not limited to the following: Lead the design, development, deployment and rollout of enhancements on the API Platform, both in the cloud and on premise.Participate in the design of delivery solutions, ensuring alignment with b[...]",
+                "link": "https://www.itjobs.ca/en/offer/on/toronto/senior-api-platform-solutions-design-engineer/943e4e33-58f2-40ea-999e-1ac20b06efce_en/"
+            }
+        },
+        {
+            "Project Support Manager": {
+                "Location": "Surrey, BC",
+                "info": "Do you want to work with an up-beat Program Management Office (Advance Program Management Office) a team who values learning and teamwork, supports and cares about each other, and works in a dynamic virtual environment from home? Does [...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/surrey/project-support-manager/65c69ac0-5a25-4b54-9c7a-5839e8b33122_en/"
+            }
+        },
+        {
+            "Project Support Manager": {
+                "Location": "Surrey, BC",
+                "info": "Do you want to work with an up-beat Program Management Office (Advance Program Management Office) a team who values learning and teamwork, supports and cares about each other, and works in a dynamic virtual environment from home? Does [...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/surrey/project-support-manager/7ad2a76d-4e9d-483d-8aef-95f75a8fd9e9_en/"
+            }
+        },
+        {
+            "Project Coordinator": {
+                "Location": "Surrey, BC",
+                "info": "We are currently looking to fill a Full Time opportunity for a Project Coordinator at Central City located in Surrey, BC. As a Project Coordinator, you will work as a key member of the Advance Program, collaborating with managers and s[...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/surrey/project-coordinator/2b3ee3da-d74f-4539-b915-1abb9c1c8240_en/"
+            }
+        },
+        {
+            "Corporate Digital Account Executive": {
+                "Location": "Vancouver, BC",
+                "info": "Corporate Digital Account Executive What you'll do: The Account Executive (AE) role empowers customers to achieve their full potential by strategically positioning SAP cloud solutions to address their unique business challenges and lay[...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/vancouver/corporate-digital-account-executive/8480af02-fca8-4dad-80fe-9bd5ce47e9ff_en/"
+            }
+        },
+        {
+            "Software Engineer II": {
+                "Location": "Vancouver, BC",
+                "info": "We are looking for a Software Engineer II to drive our efforts in areas ranging from performance, mobile architecture, and customer growth on Android and iOS platform. This position is with the Microsoft Teams' mobile clients team whic[...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/vancouver/software-engineer-ii/75cec662-8f0c-4393-a97c-c9a1ece43e2b_en/"
+            }
+        },
+        {
+            "Senior Software Engineer": {
+                "Location": "Vancouver, BC",
+                "info": "We are looking to hire a Senior Software Engineer for our collaborative, innovative and fast-moving team that has delivered some of Bing's most exciting features, and we're just getting warmed up! Our mission is to build a loyal user b[...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/vancouver/senior-software-engineer/57718292-33f3-4cb4-ad80-47a699f70184_en/"
+            }
+        },
+        {
+            "Senior Software Engineer (Backend)": {
+                "Location": "Vancouver, BC",
+                "info": "We are seeking a talented Senior Software Engineer (Backend) to join our team for our next-generation AI-Powered Contact Center Applications. In this role, you will lead the design, development, and implementation of intelligent large-[...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/vancouver/senior-software-engineer-backend/12b9d64e-7715-4cd1-b3da-c2ac40d6f66d_en/"
+            }
+        },
+        {
+            "Senior Software Development Engineer, Aurora Cp - Availability": {
+                "Location": "Vancouver, BC",
+                "info": "As an SDE III on Aurora Availability team, you will design and implement software components and enhance existing components to help us continuously improve and evolve to meet growing availability demands from our customers.We are look[...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/vancouver/senior-software-development-engineer-aurora-cp-availability/4854fc3f-c5cc-4b1b-b414-5f15174a99fb_en/"
+            }
+        },
+        {
+            "Cloud Deal Desk Manager": {
+                "Location": "Anywhere - Canada",
+                "info": "Your impact:As a Cloud Deal Desk Manager , you will be responsible for drafting and negotiating cloud service agreements including product schedules and orders with associated terms and conditions working alongside our legal department[...]",
+                "link": "https://www.itjobs.ca/en/offer/ca/anywhere/cloud-deal-desk-manager/22cab3e0-ea4d-47c1-93d9-b7dd4156644d_en/"
+            }
+        }
+    ],
+    [
+        {
+            "Senior API Platform Solutions Design Engineer": {
+                "Location": "Toronto, ON",
+                "info": "but are not limited to the following: Lead the design, development, deployment and rollout of enhancements on the API Platform, both in the cloud and on premise.Participate in the design of delivery solutions, ensuring alignment with b[...]",
+                "link": "https://www.itjobs.ca/en/offer/on/toronto/senior-api-platform-solutions-design-engineer/943e4e33-58f2-40ea-999e-1ac20b06efce_en/"
+            }
+        },
+        {
+            "Project Support Manager": {
+                "Location": "Surrey, BC",
+                "info": "Do you want to work with an up-beat Program Management Office (Advance Program Management Office) a team who values learning and teamwork, supports and cares about each other, and works in a dynamic virtual environment from home? Does [...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/surrey/project-support-manager/65c69ac0-5a25-4b54-9c7a-5839e8b33122_en/"
+            }
+        },
+        {
+            "Project Support Manager": {
+                "Location": "Surrey, BC",
+                "info": "Do you want to work with an up-beat Program Management Office (Advance Program Management Office) a team who values learning and teamwork, supports and cares about each other, and works in a dynamic virtual environment from home? Does [...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/surrey/project-support-manager/7ad2a76d-4e9d-483d-8aef-95f75a8fd9e9_en/"
+            }
+        },
+        {
+            "Project Coordinator": {
+                "Location": "Surrey, BC",
+                "info": "We are currently looking to fill a Full Time opportunity for a Project Coordinator at Central City located in Surrey, BC. As a Project Coordinator, you will work as a key member of the Advance Program, collaborating with managers and s[...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/surrey/project-coordinator/2b3ee3da-d74f-4539-b915-1abb9c1c8240_en/"
+            }
+        },
+        {
+            "Corporate Digital Account Executive": {
+                "Location": "Vancouver, BC",
+                "info": "Corporate Digital Account Executive What you'll do: The Account Executive (AE) role empowers customers to achieve their full potential by strategically positioning SAP cloud solutions to address their unique business challenges and lay[...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/vancouver/corporate-digital-account-executive/8480af02-fca8-4dad-80fe-9bd5ce47e9ff_en/"
+            }
+        },
+        {
+            "Software Engineer II": {
+                "Location": "Vancouver, BC",
+                "info": "We are looking for a Software Engineer II to drive our efforts in areas ranging from performance, mobile architecture, and customer growth on Android and iOS platform. This position is with the Microsoft Teams' mobile clients team whic[...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/vancouver/software-engineer-ii/75cec662-8f0c-4393-a97c-c9a1ece43e2b_en/"
+            }
+        },
+        {
+            "Senior Software Engineer": {
+                "Location": "Vancouver, BC",
+                "info": "We are looking to hire a Senior Software Engineer for our collaborative, innovative and fast-moving team that has delivered some of Bing's most exciting features, and we're just getting warmed up! Our mission is to build a loyal user b[...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/vancouver/senior-software-engineer/57718292-33f3-4cb4-ad80-47a699f70184_en/"
+            }
+        },
+        {
+            "Senior Software Engineer (Backend)": {
+                "Location": "Vancouver, BC",
+                "info": "We are seeking a talented Senior Software Engineer (Backend) to join our team for our next-generation AI-Powered Contact Center Applications. In this role, you will lead the design, development, and implementation of intelligent large-[...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/vancouver/senior-software-engineer-backend/12b9d64e-7715-4cd1-b3da-c2ac40d6f66d_en/"
+            }
+        },
+        {
+            "Senior Software Development Engineer, Aurora Cp - Availability": {
+                "Location": "Vancouver, BC",
+                "info": "As an SDE III on Aurora Availability team, you will design and implement software components and enhance existing components to help us continuously improve and evolve to meet growing availability demands from our customers.We are look[...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/vancouver/senior-software-development-engineer-aurora-cp-availability/4854fc3f-c5cc-4b1b-b414-5f15174a99fb_en/"
+            }
+        },
+        {
+            "Cloud Deal Desk Manager": {
+                "Location": "Anywhere - Canada",
+                "info": "Your impact:As a Cloud Deal Desk Manager , you will be responsible for drafting and negotiating cloud service agreements including product schedules and orders with associated terms and conditions working alongside our legal department[...]",
+                "link": "https://www.itjobs.ca/en/offer/ca/anywhere/cloud-deal-desk-manager/22cab3e0-ea4d-47c1-93d9-b7dd4156644d_en/"
+            }
+        }
+    ],
+    [
+        {
+            "Tester & Technical Support Specialist": {
+                "Location": "Remote\n       (Canada)",
+                "info": "info not found",
+                "link": "https://jobs.techtalent.ca/tester-technical-support-specialist-528ec7fe3dc5"
+            }
+        }
+    ],
+    [
+        {
+            "Senior API Platform Solutions Design Engineer": {
+                "Location": "Toronto, ON",
+                "info": "but are not limited to the following: Lead the design, development, deployment and rollout of enhancements on the API Platform, both in the cloud and on premise.Participate in the design of delivery solutions, ensuring alignment with b[...]",
+                "link": "https://www.itjobs.ca/en/offer/on/toronto/senior-api-platform-solutions-design-engineer/943e4e33-58f2-40ea-999e-1ac20b06efce_en/"
+            }
+        },
+        {
+            "Project Support Manager": {
+                "Location": "Surrey, BC",
+                "info": "Do you want to work with an up-beat Program Management Office (Advance Program Management Office) a team who values learning and teamwork, supports and cares about each other, and works in a dynamic virtual environment from home? Does [...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/surrey/project-support-manager/65c69ac0-5a25-4b54-9c7a-5839e8b33122_en/"
+            }
+        },
+        {
+            "Project Support Manager": {
+                "Location": "Surrey, BC",
+                "info": "Do you want to work with an up-beat Program Management Office (Advance Program Management Office) a team who values learning and teamwork, supports and cares about each other, and works in a dynamic virtual environment from home? Does [...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/surrey/project-support-manager/7ad2a76d-4e9d-483d-8aef-95f75a8fd9e9_en/"
+            }
+        },
+        {
+            "Project Coordinator": {
+                "Location": "Surrey, BC",
+                "info": "We are currently looking to fill a Full Time opportunity for a Project Coordinator at Central City located in Surrey, BC. As a Project Coordinator, you will work as a key member of the Advance Program, collaborating with managers and s[...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/surrey/project-coordinator/2b3ee3da-d74f-4539-b915-1abb9c1c8240_en/"
+            }
+        },
+        {
+            "Corporate Digital Account Executive": {
+                "Location": "Vancouver, BC",
+                "info": "Corporate Digital Account Executive What you'll do: The Account Executive (AE) role empowers customers to achieve their full potential by strategically positioning SAP cloud solutions to address their unique business challenges and lay[...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/vancouver/corporate-digital-account-executive/8480af02-fca8-4dad-80fe-9bd5ce47e9ff_en/"
+            }
+        },
+        {
+            "Software Engineer II": {
+                "Location": "Vancouver, BC",
+                "info": "We are looking for a Software Engineer II to drive our efforts in areas ranging from performance, mobile architecture, and customer growth on Android and iOS platform. This position is with the Microsoft Teams' mobile clients team whic[...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/vancouver/software-engineer-ii/75cec662-8f0c-4393-a97c-c9a1ece43e2b_en/"
+            }
+        },
+        {
+            "Senior Software Engineer": {
+                "Location": "Vancouver, BC",
+                "info": "We are looking to hire a Senior Software Engineer for our collaborative, innovative and fast-moving team that has delivered some of Bing's most exciting features, and we're just getting warmed up! Our mission is to build a loyal user b[...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/vancouver/senior-software-engineer/57718292-33f3-4cb4-ad80-47a699f70184_en/"
+            }
+        },
+        {
+            "Senior Software Engineer (Backend)": {
+                "Location": "Vancouver, BC",
+                "info": "We are seeking a talented Senior Software Engineer (Backend) to join our team for our next-generation AI-Powered Contact Center Applications. In this role, you will lead the design, development, and implementation of intelligent large-[...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/vancouver/senior-software-engineer-backend/12b9d64e-7715-4cd1-b3da-c2ac40d6f66d_en/"
+            }
+        },
+        {
+            "Senior Software Development Engineer, Aurora Cp - Availability": {
+                "Location": "Vancouver, BC",
+                "info": "As an SDE III on Aurora Availability team, you will design and implement software components and enhance existing components to help us continuously improve and evolve to meet growing availability demands from our customers.We are look[...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/vancouver/senior-software-development-engineer-aurora-cp-availability/4854fc3f-c5cc-4b1b-b414-5f15174a99fb_en/"
+            }
+        },
+        {
+            "Cloud Deal Desk Manager": {
+                "Location": "Anywhere - Canada",
+                "info": "Your impact:As a Cloud Deal Desk Manager , you will be responsible for drafting and negotiating cloud service agreements including product schedules and orders with associated terms and conditions working alongside our legal department[...]",
+                "link": "https://www.itjobs.ca/en/offer/ca/anywhere/cloud-deal-desk-manager/22cab3e0-ea4d-47c1-93d9-b7dd4156644d_en/"
+            }
+        }
+    ],
+    [
+        {
+            "Senior API Platform Solutions Design Engineer": {
+                "Location": "Toronto, ON",
+                "info": "but are not limited to the following: Lead the design, development, deployment and rollout of enhancements on the API Platform, both in the cloud and on premise.Participate in the design of delivery solutions, ensuring alignment with b[...]",
+                "link": "https://www.itjobs.ca/en/offer/on/toronto/senior-api-platform-solutions-design-engineer/943e4e33-58f2-40ea-999e-1ac20b06efce_en/"
+            }
+        },
+        {
+            "Project Support Manager": {
+                "Location": "Surrey, BC",
+                "info": "Do you want to work with an up-beat Program Management Office (Advance Program Management Office) a team who values learning and teamwork, supports and cares about each other, and works in a dynamic virtual environment from home? Does [...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/surrey/project-support-manager/65c69ac0-5a25-4b54-9c7a-5839e8b33122_en/"
+            }
+        },
+        {
+            "Project Support Manager": {
+                "Location": "Surrey, BC",
+                "info": "Do you want to work with an up-beat Program Management Office (Advance Program Management Office) a team who values learning and teamwork, supports and cares about each other, and works in a dynamic virtual environment from home? Does [...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/surrey/project-support-manager/7ad2a76d-4e9d-483d-8aef-95f75a8fd9e9_en/"
+            }
+        },
+        {
+            "Project Coordinator": {
+                "Location": "Surrey, BC",
+                "info": "We are currently looking to fill a Full Time opportunity for a Project Coordinator at Central City located in Surrey, BC. As a Project Coordinator, you will work as a key member of the Advance Program, collaborating with managers and s[...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/surrey/project-coordinator/2b3ee3da-d74f-4539-b915-1abb9c1c8240_en/"
+            }
+        },
+        {
+            "Corporate Digital Account Executive": {
+                "Location": "Vancouver, BC",
+                "info": "Corporate Digital Account Executive What you'll do: The Account Executive (AE) role empowers customers to achieve their full potential by strategically positioning SAP cloud solutions to address their unique business challenges and lay[...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/vancouver/corporate-digital-account-executive/8480af02-fca8-4dad-80fe-9bd5ce47e9ff_en/"
+            }
+        },
+        {
+            "Software Engineer II": {
+                "Location": "Vancouver, BC",
+                "info": "We are looking for a Software Engineer II to drive our efforts in areas ranging from performance, mobile architecture, and customer growth on Android and iOS platform. This position is with the Microsoft Teams' mobile clients team whic[...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/vancouver/software-engineer-ii/75cec662-8f0c-4393-a97c-c9a1ece43e2b_en/"
+            }
+        },
+        {
+            "Senior Software Engineer": {
+                "Location": "Vancouver, BC",
+                "info": "We are looking to hire a Senior Software Engineer for our collaborative, innovative and fast-moving team that has delivered some of Bing's most exciting features, and we're just getting warmed up! Our mission is to build a loyal user b[...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/vancouver/senior-software-engineer/57718292-33f3-4cb4-ad80-47a699f70184_en/"
+            }
+        },
+        {
+            "Senior Software Engineer (Backend)": {
+                "Location": "Vancouver, BC",
+                "info": "We are seeking a talented Senior Software Engineer (Backend) to join our team for our next-generation AI-Powered Contact Center Applications. In this role, you will lead the design, development, and implementation of intelligent large-[...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/vancouver/senior-software-engineer-backend/12b9d64e-7715-4cd1-b3da-c2ac40d6f66d_en/"
+            }
+        },
+        {
+            "Senior Software Development Engineer, Aurora Cp - Availability": {
+                "Location": "Vancouver, BC",
+                "info": "As an SDE III on Aurora Availability team, you will design and implement software components and enhance existing components to help us continuously improve and evolve to meet growing availability demands from our customers.We are look[...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/vancouver/senior-software-development-engineer-aurora-cp-availability/4854fc3f-c5cc-4b1b-b414-5f15174a99fb_en/"
+            }
+        },
+        {
+            "Cloud Deal Desk Manager": {
+                "Location": "Anywhere - Canada",
+                "info": "Your impact:As a Cloud Deal Desk Manager , you will be responsible for drafting and negotiating cloud service agreements including product schedules and orders with associated terms and conditions working alongside our legal department[...]",
+                "link": "https://www.itjobs.ca/en/offer/ca/anywhere/cloud-deal-desk-manager/22cab3e0-ea4d-47c1-93d9-b7dd4156644d_en/"
+            }
+        }
+    ],
+    [
+        {
+            "Senior API Platform Solutions Design Engineer": {
+                "Location": "Toronto, ON",
+                "info": "but are not limited to the following: Lead the design, development, deployment and rollout of enhancements on the API Platform, both in the cloud and on premise.Participate in the design of delivery solutions, ensuring alignment with b[...]",
+                "link": "https://www.itjobs.ca/en/offer/on/toronto/senior-api-platform-solutions-design-engineer/943e4e33-58f2-40ea-999e-1ac20b06efce_en/"
+            }
+        },
+        {
+            "Project Support Manager": {
+                "Location": "Surrey, BC",
+                "info": "Do you want to work with an up-beat Program Management Office (Advance Program Management Office) a team who values learning and teamwork, supports and cares about each other, and works in a dynamic virtual environment from home? Does [...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/surrey/project-support-manager/65c69ac0-5a25-4b54-9c7a-5839e8b33122_en/"
+            }
+        },
+        {
+            "Project Support Manager": {
+                "Location": "Surrey, BC",
+                "info": "Do you want to work with an up-beat Program Management Office (Advance Program Management Office) a team who values learning and teamwork, supports and cares about each other, and works in a dynamic virtual environment from home? Does [...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/surrey/project-support-manager/7ad2a76d-4e9d-483d-8aef-95f75a8fd9e9_en/"
+            }
+        },
+        {
+            "Project Coordinator": {
+                "Location": "Surrey, BC",
+                "info": "We are currently looking to fill a Full Time opportunity for a Project Coordinator at Central City located in Surrey, BC. As a Project Coordinator, you will work as a key member of the Advance Program, collaborating with managers and s[...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/surrey/project-coordinator/2b3ee3da-d74f-4539-b915-1abb9c1c8240_en/"
+            }
+        },
+        {
+            "Corporate Digital Account Executive": {
+                "Location": "Vancouver, BC",
+                "info": "Corporate Digital Account Executive What you'll do: The Account Executive (AE) role empowers customers to achieve their full potential by strategically positioning SAP cloud solutions to address their unique business challenges and lay[...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/vancouver/corporate-digital-account-executive/8480af02-fca8-4dad-80fe-9bd5ce47e9ff_en/"
+            }
+        },
+        {
+            "Software Engineer II": {
+                "Location": "Vancouver, BC",
+                "info": "We are looking for a Software Engineer II to drive our efforts in areas ranging from performance, mobile architecture, and customer growth on Android and iOS platform. This position is with the Microsoft Teams' mobile clients team whic[...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/vancouver/software-engineer-ii/75cec662-8f0c-4393-a97c-c9a1ece43e2b_en/"
+            }
+        },
+        {
+            "Senior Software Engineer": {
+                "Location": "Vancouver, BC",
+                "info": "We are looking to hire a Senior Software Engineer for our collaborative, innovative and fast-moving team that has delivered some of Bing's most exciting features, and we're just getting warmed up! Our mission is to build a loyal user b[...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/vancouver/senior-software-engineer/57718292-33f3-4cb4-ad80-47a699f70184_en/"
+            }
+        },
+        {
+            "Senior Software Engineer (Backend)": {
+                "Location": "Vancouver, BC",
+                "info": "We are seeking a talented Senior Software Engineer (Backend) to join our team for our next-generation AI-Powered Contact Center Applications. In this role, you will lead the design, development, and implementation of intelligent large-[...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/vancouver/senior-software-engineer-backend/12b9d64e-7715-4cd1-b3da-c2ac40d6f66d_en/"
+            }
+        },
+        {
+            "Senior Software Development Engineer, Aurora Cp - Availability": {
+                "Location": "Vancouver, BC",
+                "info": "As an SDE III on Aurora Availability team, you will design and implement software components and enhance existing components to help us continuously improve and evolve to meet growing availability demands from our customers.We are look[...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/vancouver/senior-software-development-engineer-aurora-cp-availability/4854fc3f-c5cc-4b1b-b414-5f15174a99fb_en/"
+            }
+        },
+        {
+            "Cloud Deal Desk Manager": {
+                "Location": "Anywhere - Canada",
+                "info": "Your impact:As a Cloud Deal Desk Manager , you will be responsible for drafting and negotiating cloud service agreements including product schedules and orders with associated terms and conditions working alongside our legal department[...]",
+                "link": "https://www.itjobs.ca/en/offer/ca/anywhere/cloud-deal-desk-manager/22cab3e0-ea4d-47c1-93d9-b7dd4156644d_en/"
+            }
+        }
+    ],
+    [
+        {
+            "Senior API Platform Solutions Design Engineer": {
+                "Location": "Toronto, ON",
+                "info": "but are not limited to the following: Lead the design, development, deployment and rollout of enhancements on the API Platform, both in the cloud and on premise.Participate in the design of delivery solutions, ensuring alignment with b[...]",
+                "link": "https://www.itjobs.ca/en/offer/on/toronto/senior-api-platform-solutions-design-engineer/943e4e33-58f2-40ea-999e-1ac20b06efce_en/"
+            }
+        },
+        {
+            "Project Support Manager": {
+                "Location": "Surrey, BC",
+                "info": "Do you want to work with an up-beat Program Management Office (Advance Program Management Office) a team who values learning and teamwork, supports and cares about each other, and works in a dynamic virtual environment from home? Does [...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/surrey/project-support-manager/65c69ac0-5a25-4b54-9c7a-5839e8b33122_en/"
+            }
+        },
+        {
+            "Project Support Manager": {
+                "Location": "Surrey, BC",
+                "info": "Do you want to work with an up-beat Program Management Office (Advance Program Management Office) a team who values learning and teamwork, supports and cares about each other, and works in a dynamic virtual environment from home? Does [...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/surrey/project-support-manager/7ad2a76d-4e9d-483d-8aef-95f75a8fd9e9_en/"
+            }
+        },
+        {
+            "Project Coordinator": {
+                "Location": "Surrey, BC",
+                "info": "We are currently looking to fill a Full Time opportunity for a Project Coordinator at Central City located in Surrey, BC. As a Project Coordinator, you will work as a key member of the Advance Program, collaborating with managers and s[...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/surrey/project-coordinator/2b3ee3da-d74f-4539-b915-1abb9c1c8240_en/"
+            }
+        },
+        {
+            "Corporate Digital Account Executive": {
+                "Location": "Vancouver, BC",
+                "info": "Corporate Digital Account Executive What you'll do: The Account Executive (AE) role empowers customers to achieve their full potential by strategically positioning SAP cloud solutions to address their unique business challenges and lay[...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/vancouver/corporate-digital-account-executive/8480af02-fca8-4dad-80fe-9bd5ce47e9ff_en/"
+            }
+        },
+        {
+            "Software Engineer II": {
+                "Location": "Vancouver, BC",
+                "info": "We are looking for a Software Engineer II to drive our efforts in areas ranging from performance, mobile architecture, and customer growth on Android and iOS platform. This position is with the Microsoft Teams' mobile clients team whic[...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/vancouver/software-engineer-ii/75cec662-8f0c-4393-a97c-c9a1ece43e2b_en/"
+            }
+        },
+        {
+            "Senior Software Engineer": {
+                "Location": "Vancouver, BC",
+                "info": "We are looking to hire a Senior Software Engineer for our collaborative, innovative and fast-moving team that has delivered some of Bing's most exciting features, and we're just getting warmed up! Our mission is to build a loyal user b[...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/vancouver/senior-software-engineer/57718292-33f3-4cb4-ad80-47a699f70184_en/"
+            }
+        },
+        {
+            "Senior Software Engineer (Backend)": {
+                "Location": "Vancouver, BC",
+                "info": "We are seeking a talented Senior Software Engineer (Backend) to join our team for our next-generation AI-Powered Contact Center Applications. In this role, you will lead the design, development, and implementation of intelligent large-[...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/vancouver/senior-software-engineer-backend/12b9d64e-7715-4cd1-b3da-c2ac40d6f66d_en/"
+            }
+        },
+        {
+            "Senior Software Development Engineer, Aurora Cp - Availability": {
+                "Location": "Vancouver, BC",
+                "info": "As an SDE III on Aurora Availability team, you will design and implement software components and enhance existing components to help us continuously improve and evolve to meet growing availability demands from our customers.We are look[...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/vancouver/senior-software-development-engineer-aurora-cp-availability/4854fc3f-c5cc-4b1b-b414-5f15174a99fb_en/"
+            }
+        },
+        {
+            "Cloud Deal Desk Manager": {
+                "Location": "Anywhere - Canada",
+                "info": "Your impact:As a Cloud Deal Desk Manager , you will be responsible for drafting and negotiating cloud service agreements including product schedules and orders with associated terms and conditions working alongside our legal department[...]",
+                "link": "https://www.itjobs.ca/en/offer/ca/anywhere/cloud-deal-desk-manager/22cab3e0-ea4d-47c1-93d9-b7dd4156644d_en/"
+            }
+        }
+    ],
+    [
+        {
+            "Senior API Platform Solutions Design Engineer": {
+                "Location": "Toronto, ON",
+                "info": "but are not limited to the following: Lead the design, development, deployment and rollout of enhancements on the API Platform, both in the cloud and on premise.Participate in the design of delivery solutions, ensuring alignment with b[...]",
+                "link": "https://www.itjobs.ca/en/offer/on/toronto/senior-api-platform-solutions-design-engineer/943e4e33-58f2-40ea-999e-1ac20b06efce_en/"
+            }
+        },
+        {
+            "Project Support Manager": {
+                "Location": "Surrey, BC",
+                "info": "Do you want to work with an up-beat Program Management Office (Advance Program Management Office) a team who values learning and teamwork, supports and cares about each other, and works in a dynamic virtual environment from home? Does [...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/surrey/project-support-manager/65c69ac0-5a25-4b54-9c7a-5839e8b33122_en/"
+            }
+        },
+        {
+            "Project Support Manager": {
+                "Location": "Surrey, BC",
+                "info": "Do you want to work with an up-beat Program Management Office (Advance Program Management Office) a team who values learning and teamwork, supports and cares about each other, and works in a dynamic virtual environment from home? Does [...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/surrey/project-support-manager/7ad2a76d-4e9d-483d-8aef-95f75a8fd9e9_en/"
+            }
+        },
+        {
+            "Project Coordinator": {
+                "Location": "Surrey, BC",
+                "info": "We are currently looking to fill a Full Time opportunity for a Project Coordinator at Central City located in Surrey, BC. As a Project Coordinator, you will work as a key member of the Advance Program, collaborating with managers and s[...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/surrey/project-coordinator/2b3ee3da-d74f-4539-b915-1abb9c1c8240_en/"
+            }
+        },
+        {
+            "Corporate Digital Account Executive": {
+                "Location": "Vancouver, BC",
+                "info": "Corporate Digital Account Executive What you'll do: The Account Executive (AE) role empowers customers to achieve their full potential by strategically positioning SAP cloud solutions to address their unique business challenges and lay[...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/vancouver/corporate-digital-account-executive/8480af02-fca8-4dad-80fe-9bd5ce47e9ff_en/"
+            }
+        },
+        {
+            "Software Engineer II": {
+                "Location": "Vancouver, BC",
+                "info": "We are looking for a Software Engineer II to drive our efforts in areas ranging from performance, mobile architecture, and customer growth on Android and iOS platform. This position is with the Microsoft Teams' mobile clients team whic[...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/vancouver/software-engineer-ii/75cec662-8f0c-4393-a97c-c9a1ece43e2b_en/"
+            }
+        },
+        {
+            "Senior Software Engineer": {
+                "Location": "Vancouver, BC",
+                "info": "We are looking to hire a Senior Software Engineer for our collaborative, innovative and fast-moving team that has delivered some of Bing's most exciting features, and we're just getting warmed up! Our mission is to build a loyal user b[...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/vancouver/senior-software-engineer/57718292-33f3-4cb4-ad80-47a699f70184_en/"
+            }
+        },
+        {
+            "Senior Software Engineer (Backend)": {
+                "Location": "Vancouver, BC",
+                "info": "We are seeking a talented Senior Software Engineer (Backend) to join our team for our next-generation AI-Powered Contact Center Applications. In this role, you will lead the design, development, and implementation of intelligent large-[...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/vancouver/senior-software-engineer-backend/12b9d64e-7715-4cd1-b3da-c2ac40d6f66d_en/"
+            }
+        },
+        {
+            "Senior Software Development Engineer, Aurora Cp - Availability": {
+                "Location": "Vancouver, BC",
+                "info": "As an SDE III on Aurora Availability team, you will design and implement software components and enhance existing components to help us continuously improve and evolve to meet growing availability demands from our customers.We are look[...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/vancouver/senior-software-development-engineer-aurora-cp-availability/4854fc3f-c5cc-4b1b-b414-5f15174a99fb_en/"
+            }
+        },
+        {
+            "Cloud Deal Desk Manager": {
+                "Location": "Anywhere - Canada",
+                "info": "Your impact:As a Cloud Deal Desk Manager , you will be responsible for drafting and negotiating cloud service agreements including product schedules and orders with associated terms and conditions working alongside our legal department[...]",
+                "link": "https://www.itjobs.ca/en/offer/ca/anywhere/cloud-deal-desk-manager/22cab3e0-ea4d-47c1-93d9-b7dd4156644d_en/"
+            }
+        }
+    ],
+    [
+        {
+            "Senior API Platform Solutions Design Engineer": {
+                "Location": "Toronto, ON",
+                "info": "but are not limited to the following: Lead the design, development, deployment and rollout of enhancements on the API Platform, both in the cloud and on premise.Participate in the design of delivery solutions, ensuring alignment with b[...]",
+                "link": "https://www.itjobs.ca/en/offer/on/toronto/senior-api-platform-solutions-design-engineer/943e4e33-58f2-40ea-999e-1ac20b06efce_en/"
+            }
+        },
+        {
+            "Project Support Manager": {
+                "Location": "Surrey, BC",
+                "info": "Do you want to work with an up-beat Program Management Office (Advance Program Management Office) a team who values learning and teamwork, supports and cares about each other, and works in a dynamic virtual environment from home? Does [...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/surrey/project-support-manager/65c69ac0-5a25-4b54-9c7a-5839e8b33122_en/"
+            }
+        },
+        {
+            "Project Support Manager": {
+                "Location": "Surrey, BC",
+                "info": "Do you want to work with an up-beat Program Management Office (Advance Program Management Office) a team who values learning and teamwork, supports and cares about each other, and works in a dynamic virtual environment from home? Does [...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/surrey/project-support-manager/7ad2a76d-4e9d-483d-8aef-95f75a8fd9e9_en/"
+            }
+        },
+        {
+            "Project Coordinator": {
+                "Location": "Surrey, BC",
+                "info": "We are currently looking to fill a Full Time opportunity for a Project Coordinator at Central City located in Surrey, BC. As a Project Coordinator, you will work as a key member of the Advance Program, collaborating with managers and s[...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/surrey/project-coordinator/2b3ee3da-d74f-4539-b915-1abb9c1c8240_en/"
+            }
+        },
+        {
+            "Corporate Digital Account Executive": {
+                "Location": "Vancouver, BC",
+                "info": "Corporate Digital Account Executive What you'll do: The Account Executive (AE) role empowers customers to achieve their full potential by strategically positioning SAP cloud solutions to address their unique business challenges and lay[...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/vancouver/corporate-digital-account-executive/8480af02-fca8-4dad-80fe-9bd5ce47e9ff_en/"
+            }
+        },
+        {
+            "Software Engineer II": {
+                "Location": "Vancouver, BC",
+                "info": "We are looking for a Software Engineer II to drive our efforts in areas ranging from performance, mobile architecture, and customer growth on Android and iOS platform. This position is with the Microsoft Teams' mobile clients team whic[...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/vancouver/software-engineer-ii/75cec662-8f0c-4393-a97c-c9a1ece43e2b_en/"
+            }
+        },
+        {
+            "Senior Software Engineer": {
+                "Location": "Vancouver, BC",
+                "info": "We are looking to hire a Senior Software Engineer for our collaborative, innovative and fast-moving team that has delivered some of Bing's most exciting features, and we're just getting warmed up! Our mission is to build a loyal user b[...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/vancouver/senior-software-engineer/57718292-33f3-4cb4-ad80-47a699f70184_en/"
+            }
+        },
+        {
+            "Senior Software Engineer (Backend)": {
+                "Location": "Vancouver, BC",
+                "info": "We are seeking a talented Senior Software Engineer (Backend) to join our team for our next-generation AI-Powered Contact Center Applications. In this role, you will lead the design, development, and implementation of intelligent large-[...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/vancouver/senior-software-engineer-backend/12b9d64e-7715-4cd1-b3da-c2ac40d6f66d_en/"
+            }
+        },
+        {
+            "Senior Software Development Engineer, Aurora Cp - Availability": {
+                "Location": "Vancouver, BC",
+                "info": "As an SDE III on Aurora Availability team, you will design and implement software components and enhance existing components to help us continuously improve and evolve to meet growing availability demands from our customers.We are look[...]",
+                "link": "https://www.itjobs.ca/en/offer/bc/vancouver/senior-software-development-engineer-aurora-cp-availability/4854fc3f-c5cc-4b1b-b414-5f15174a99fb_en/"
+            }
+        },
+        {
+            "Cloud Deal Desk Manager": {
+                "Location": "Anywhere - Canada",
+                "info": "Your impact:As a Cloud Deal Desk Manager , you will be responsible for drafting and negotiating cloud service agreements including product schedules and orders with associated terms and conditions working alongside our legal department[...]",
+                "link": "https://www.itjobs.ca/en/offer/ca/anywhere/cloud-deal-desk-manager/22cab3e0-ea4d-47c1-93d9-b7dd4156644d_en/"
+            }
+        }
+    ]
+]
