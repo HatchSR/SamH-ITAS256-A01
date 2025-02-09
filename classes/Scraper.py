@@ -2,7 +2,7 @@ import requests
 import certifi
 from bs4 import BeautifulSoup
 from json import dumps,loads
-
+import classes.AI_shortener as AI_shortener
 class Scraper:
     def __init__(self,url,wrapper_tag_type,wrapper_tag_class,content_tag_type,content_tag_class):
         self.url = url
@@ -22,14 +22,21 @@ class Scraper:
         results = wrapper.find(self.wrapper_tag_type, class_=self.wrapper_tag_class)
         return results
         
-    def def_content(self,content,title,info,location):
+        #TODO: Take the content and find the proper tags, add them to their own dictionary,
+        # assign the smaller dicitinoary to a larger one and return the larger dictionary made up of all the other dictionaries
+    def def_content(self,content,title_tag,title_class,info_tag,info_class,location_tag,location_class):
         all_content = content.find_all(self.content_tag_type,class_=self.content_tag_class)
-        # all_jobs={}
-        # for job in all_content:
-        #     job_title = job.find()
-        #     job_info = job.find()
-        #     job_location= job.find()
+        all_jobs={}
+        
+        for job in all_content:
             
+            job_title = job.find(title_tag,title_class).text.strip().strip('\\n')
+            job_info = job.find(info_tag,info_class).text
+            job_location= job.find(location_tag,location_class).text
+            all_jobs.update({job_title:{'Location':job_location,'info':job_info}})
+            
+            
+        return all_jobs
     
     def dump_content(self,product):
 
