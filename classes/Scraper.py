@@ -37,7 +37,7 @@ class Scraper:
         return results
         
     #finds the content and retreives the needed information
-    def def_content(self,content,title_tag,title_class,info_tag,info_class,location_tag,location_class):
+    def def_content(self,content,title_tag,title_class,info_tag,info_class,location_tag,location_class,job_link_tag=None,job_link_class=None):
         
         # wrapper_str = str(content)
         # with open('data/check.txt', 'w', encoding='utf-8') as checking:
@@ -62,22 +62,21 @@ class Scraper:
                 
             elif self.stupid_links == True:
                         print("stupid link")
-                        print(job)
+                        print(f'title tag: {job_link_tag}')
+                        #print(job)
                         base_link = input('What is the base link of the site? ')
-                        # Ensure we get the correct parent
-                        job_parent = job.find('a', href=True)  # Get the closest valid parent container
-                        print(job_parent)
-
-                        # Find the FIRST direct <a> tag inside the parent
-                        parent_link = job_parent
+                        
+                        job_href = job.find(job_link_tag)['href']
 
 
-                        user_check = input(f'The found parent link is ({link_href}) does this look correct? (y/n): ')
+                        user_check = input(f'The found parent link is ({job_href}) does this look correct? (y/n): ')
 
                         if user_check.lower() == 'y':
-                            job_title_tag = job.find(title_tag, title_class)
+                            print(job_link_tag,job_link_class)
+                            job_title_tag = job.find(job_link_tag, job_link_class)
+                            print(job_title_tag)
                             job_title = job_title_tag.find(text=True, recursive=False).strip()
-                            job_link = base_link.rstrip('/') + '/' + link_href.lstrip('/')  # Ensure proper formatting
+                            job_link = base_link + job_href  # Ensure proper formatting
                             job_info = job.find(info_tag, info_class).text.strip() if job.find(info_tag, info_class) else "info not found"
                             job_location = job.find(location_tag, location_class).text.strip() if job.find(location_tag, location_class) else "location not found"
 

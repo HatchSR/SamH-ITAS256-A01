@@ -40,7 +40,7 @@ scraperITjobs.dump_content(getting_content)
 
 
 
-scraperTechTalent = Scraper(techTalent_url,'div','jobContainer','a','job-post-summary',True)
+scraperTechTalent = Scraper(techTalent_url,'div',None,'div','jobContainer',True)
 start_tech = scraperTechTalent.scraper_start()
 getting_wrapper_tech = scraperTechTalent.def_wrapper(start_tech)
 #print(f'getting wrapper function: {getting_wrapper_tech}')
@@ -51,8 +51,10 @@ info_tag='span'
 info_class='job-post-summary__header'
 location_tag='span'
 location_class='flex flex-shrink items-center' 
+job_link_tag='a'
+job_link_class='job-post-summary'
 
-getting_content_tech = scraperTechTalent.def_content(getting_wrapper_tech, title_tag, title_class, info_tag, info_class, location_tag, location_class)
+getting_content_tech = scraperTechTalent.def_content(getting_wrapper_tech, title_tag, title_class, info_tag, info_class, location_tag, location_class,job_link_tag,job_link_class)
 print(getting_content_tech)
 
 # Call dump_content on the scraperTechTalent instance, not getting_wrapper_tech
