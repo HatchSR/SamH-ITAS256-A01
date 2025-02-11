@@ -3,10 +3,11 @@ import json
 import dotenv
 
 class AI_shortening:
-    def __init__(self,job_description):
-        self.job_description = job_description
+    def __init__(self,job_url):
+        self.job_url=job_url
         
     def get_response(self):
+        
             dotenv.load_dotenv()
             ai_key=dotenv.get_key('.env','OPEN_AI_KEY')
 
@@ -20,7 +21,7 @@ class AI_shortening:
                 "messages": [
                 {
                     "role": "user",
-                    "content": f"i need you to summarize the following into 20 words: {self.job_description}"
+                    "content": f" summarize this in 20 words or less:{self.job_url}"
                 }
                 ]
             })
