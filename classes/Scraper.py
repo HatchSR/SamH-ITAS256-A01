@@ -1,6 +1,6 @@
 
 import json
-from classes.AI_shortener import AI_shortening
+
 from classes.Soup import Soup
 
 #TODO: 1.use beautiful soup to go to the site of each of the offers,
@@ -35,9 +35,9 @@ class Scraper:
         return results
         
     #finds the content and retreives the needed information
-    def def_content(self,content,title_tag,title_class,info_tag,info_class,location_tag,location_class,base_link='',job_link_array=[]):
+    def def_content(self,content,title_tag,title_class,location_tag,location_class,base_link='',job_link_array=[]):
         
-        # wrapper_str = str(content)
+        # wrapper_str = str(content)info_tag,info_class,
         # with open('data/check.txt', 'w', encoding='utf-8') as checking:
         #     checking.write(f'content is {(dumps(wrapper_str, indent=4))}') 
         
@@ -50,19 +50,13 @@ class Scraper:
             #print(f'processing job: {str(job)[:50]}')
 
             if self.stupid_links==True:
-                
-                
-                    
+
                 # print('stupid links triggered')
                 job_title_tag = job.find(title_tag,title_class)
                 job_title=job_title_tag.find(text=True, recursive=False).strip()
             
-    
                 full_job_link = base_link+str(job_link_array[array_spot])
-                
-                in_depth_soup = Soup(full_job_link)
-                
-                job_info_request = AI_shortening(full_job_link)
+
                 job_info =' job_info_request.get_response()'
                 
                 job_location= job.find(location_tag,location_class).text.strip()
@@ -80,10 +74,8 @@ class Scraper:
                 # Let ED cook the chicken
                 job_title=job_title_tag.find(text=True, recursive=False).strip()
             
-                
                 full_job_link = job.find(title_tag)['href']
                 
-                job_info_request = AI_shortening(full_job_link)
                 job_info =' job_info_request.get_response()'
                 
                 job_location= job.find(location_tag,location_class).text.strip()

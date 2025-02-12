@@ -1,121 +1,135 @@
 [
     [
         {
-            "Hoot Hiring Sprint for Intermediate Software Developers: February 24th - March 6th, 2025": {
-                "Location": "Ottawa, ON",
-                "info": " job_info_request.get_response()",
-                "link": "https://www.itjobs.ca/en/offer/on/ottawa/hoot-hiring-sprint-for-intermediate-software-developers-february-24th-march-6th-2025/c63f6090-24f5-4a25-a854-17a7af62f6b9_en/"
+            "Senior Azure Engineer": {
+                "Location": "Anywhere - Canada",
+                "info": " Company: WestJet\nWage: Not specified\nDescription: WestJet is seeking a Senior Azure Engineer to play a key role in the design, development, and operation of their cloud presence. The successful candidate will be responsible for planning, process development, implementation, and migration support to assist in WestJet's journey to the cloud. This role requires expertise in Azure, cloud networking, cybersecurity, and DevOps, as well as strong communication and collaboration skills. The ideal candidate should have 5-7 years of experience with Azure and 7-10 years of IT Operations experience. This is a full-time remote position based in Canada.",
+                "link": "https://www.itjobs.ca/en/offer/ca/anywhere/senior-azure-engineer/7595da91-a896-407f-bf3b-68f39088c8f0_en/"
             }
         },
         {
-            "Hoot Hiring Sprint for Junior Software Developers: February 24th - March 6th, 2025": {
-                "Location": "Ottawa, ON",
-                "info": " job_info_request.get_response()",
-                "link": "https://www.itjobs.ca/en/offer/on/ottawa/hoot-hiring-sprint-for-junior-software-developers-february-24th-march-6th-2025/e59f98b3-cc38-4e65-bd44-59705a26a0a6_en/"
-            }
-        },
-        {
-            "Hoot Hiring Sprint for Senior Software Developers: February 24th - March 6th, 2025": {
-                "Location": "Ottawa, ON",
-                "info": " job_info_request.get_response()",
-                "link": "https://www.itjobs.ca/en/offer/on/ottawa/hoot-hiring-sprint-for-senior-software-developers-february-24th-march-6th-2025/e589a898-4c96-4a05-b40b-b692c10a7f48_en/"
-            }
-        },
-        {
-            "Senior Account Executive, Customer Sales": {
-                "Location": "Ottawa, ON",
-                "info": " job_info_request.get_response()",
-                "link": "https://www.itjobs.ca/en/offer/on/ottawa/senior-account-executive-customer-sales/a885e121-bb75-417c-8490-cc28928bb662_en/"
-            }
-        },
-        {
-            "Senior Manager, Technical Account Management": {
-                "Location": "Toronto, ON",
-                "info": " job_info_request.get_response()",
-                "link": "https://www.itjobs.ca/en/offer/on/toronto/senior-manager-technical-account-management/7406049d-0d6d-4e5e-b77f-957d489eb97d_en/"
-            }
-        },
-        {
-            "Senior Software Developer, Backend (Scala)": {
-                "Location": "Montreal, QC",
-                "info": " job_info_request.get_response()",
-                "link": "https://www.itjobs.ca/en/offer/qc/montreal/senior-software-developer-backend-scala/80ed0916-d292-44c1-89fc-59cef3a4b797_en/"
-            }
-        },
-        {
-            "Staff Data Analyst - Marketing": {
-                "Location": "Ottawa, ON",
-                "info": " job_info_request.get_response()",
-                "link": "https://www.itjobs.ca/en/offer/on/ottawa/staff-data-analyst-marketing/5eddc81b-4753-46f4-983d-8d1805663ba9_en/"
-            }
-        },
-        {
-            "Staff Data Analyst - Product": {
-                "Location": "Ottawa, ON",
-                "info": " job_info_request.get_response()",
-                "link": "https://www.itjobs.ca/en/offer/on/ottawa/staff-data-analyst-product/ea4d555c-a475-4f82-a78f-fa210e206eb8_en/"
-            }
-        },
-        {
-            "Sr Manager, Managed Services": {
-                "Location": "Ottawa, ON",
-                "info": " job_info_request.get_response()",
-                "link": "https://www.itjobs.ca/en/offer/on/ottawa/sr-manager-managed-services/fdf2bd23-40a8-4f9e-9174-e1383be0a72b_en/"
-            }
-        },
-        {
-            "Product Manager II - Microsoft Shopping": {
+            "Desktop Support": {
                 "Location": "Vancouver, BC",
-                "info": " job_info_request.get_response()",
-                "link": "https://www.itjobs.ca/en/offer/bc/vancouver/product-manager-ii-microsoft-shopping/1ae18e82-08d4-4d27-9f6c-fd27946fe362_en/"
+                "info": " Company: Mainframe Studios\nWage: Not specified\nDescription: Mainframe Studios is seeking a Desktop Support Technician to provide technical assistance to employees in a hybrid work environment across all North American time zones. The ideal candidate will have experience supporting Microsoft Windows Win10/Win11, Microsoft Office applications, and troubleshooting computer hardware/software issues. Experience with M365 administration, network troubleshooting, and familiarity with ticketing systems is preferred. The role requires travel to the Vancouver office and working on-site as needed. Responsibilities include troubleshooting hardware/software issues, supporting remote users, setting up/disassembling IT equipment, and maintaining software/license documentation. A background in Computer Systems, Information Technology, or Technical Support is preferred, with 2+ years of experience in a technical support role in a mid to large-size company, preferably within an artistic/production environment.",
+                "link": "https://www.itjobs.ca/en/offer/bc/vancouver/desktop-support/c6901109-8a1a-40ae-be13-acb3c63fa0c0_en/"
+            }
+        },
+        {
+            "Design Emg Verification Engineering Intern/Co-op - 8 Month Summer": {
+                "Location": "Vancouver, BC",
+                "info": " Company: AMD\nWage: Unspecified\nDescription: AMD is seeking a Design/Verification Engineering Intern/Co-op to join their NBIO team in Vancouver, BC for an 8-month term starting May 2023. The successful candidate will work on the CIT subsystem for next-generation processor designs, develop and maintain engineering infrastructure, and participate in various design/verification engineering tasks. The ideal candidate should be completing their 3rd year of an Engineering (Electrical, Electronics, Computer) or Computer Science program, have knowledge of C/C++ and Verilog/System Verilog, and strong analytical thinking and problem-solving skills. Knowledge of scripting languages and/or Python is preferred. AMD is an inclusive employer dedicated to building a diverse workforce and offers competitive benefits to eligible employees.",
+                "link": "https://www.itjobs.ca/en/offer/bc/vancouver/design-emg-verification-engineering-intern-co-op-8-month-summer/64f7c88d-9c84-439b-959a-8f33a1f733da_en/"
+            }
+        },
+        {
+            "Sr. Systems Design Engineer": {
+                "Location": "Vancouver, BC",
+                "info": " Company: AMD\nWage: Remote\nDescription: As a Sr. Systems Design Engineer, you'll develop and execute emulation-based test plans & scripts for next-gen server products. You'll be responsible for creating & supporting new emulator initiatives, methodologies, and root cause analysis. Strong experience with FPGA & emulation platforms (Zebu, Palladium, Protium), System Verilog, C++, Python, and other programming languages is preferred. A Bachelor's/Master's degree in Computer Science or Computer Engineering with 5+ years of pre-silicon hardware verification experience is required. This is a full-time position located in Vancouver, Canada. AMD is an equal opportunity employer and accommodates applicants' needs throughout the recruitment process.",
+                "link": "https://www.itjobs.ca/en/offer/bc/vancouver/sr-systems-design-engineer/dcaae5fd-f76b-40dc-9706-5dde8c24b324_en/"
+            }
+        },
+        {
+            "ASIC Physical Design Engineer - Data Center GPU": {
+                "Location": "Vancouver, BC",
+                "info": " Company: AMD\nWage: Unspecified\nDescription: AMD is seeking an ASIC Physical Design Engineer to join their Datacenter GPU SOC Design Team in Vancouver. The ideal candidate should have experience in ASIC Physical Design from RTL to GDSII, strong RTL analysis skills, and knowledge in design margining methodology, low voltage design, and silicon - STA correlation. The engineer will drive PPA improvements, optimize margining practices, improve low voltage margining methodology, and drive design practices to improve boost frequency. Excellent communication, time management, and presentation skills, along with a Bachelor's or Master's degree in Computer Engineering, Computer Science, or Electrical Engineering, are desired. This is a full-time remote position.",
+                "link": "https://www.itjobs.ca/en/offer/bc/vancouver/asic-physical-design-engineer-data-center-gpu/d2fb2c98-f949-4262-baeb-8c2dffdefe90_en/"
+            }
+        },
+        {
+            "Software Engineer- Hardware Modeling": {
+                "Location": "Vancouver, BC",
+                "info": " Company: AMD\nWage: Remote\nDescription: AMD is seeking a Software Engineer - Hardware Modeling to join their Memory PHY architecture modeling team. The successful candidate will help develop, test, and verify memory PHY models for firmware development and boot loader verification. Responsibilities include working on pre-silicon and post-silicon firmware development, debugging on simulation/emulation/FPGA platforms and real hardware, and collaborating in a multi-site environment. Required skills include proficiency in C, C++, and a scripting language, as well as experience with DDR/JEDEC standard IP, DDR PHY, or Memory Controller firmware development. Preferred experience includes knowledge of SystemC, Verilog, and Python, as well as VCS simulation and debug experience. A Bachelor's, Master's, or PhD degree in Electrical or Computer Engineering with relevant experience is required. This is a full-time position located in Vancouver, BC, Canada. AMD offers a comprehensive benefits package and is an equal opportunity, inclusive employer.",
+                "link": "https://www.itjobs.ca/en/offer/bc/vancouver/software-engineer-hardware-modeling/ad2890ee-38ae-40e8-8003-d2dea23ce42f_en/"
+            }
+        },
+        {
+            "Hardware Design Verification Engineering Intern/Co-Op (Undergrad | Summer 2025 | Onsite/hybrid)": {
+                "Location": "Vancouver, BC",
+                "info": " Company: AMD\nWage: N/A\nDescription: AMD is seeking a Hardware Design Verification Engineering Intern/Co-Op (Undergrad) for a 12-16 month onsite/hybrid internship starting May 05, 2025, in Vancouver, BC. The intern will support the testing and verification of AMD's high-end Machine Intelligence products. Responsibilities may include collaborating with senior engineers, creating test plans and cases, writing scripts in Perl/Python, reviewing tools and processes, debugging, and performing system-level testing. Candidates should be currently enrolled in a Canada-based university pursuing a Bachelor's degree in Electrical engineering, Computer science, Computer engineering, or a related field. Knowledge of programming languages like C++, Python, C, Perl, Shell, UVM, Verilog, and System Verilog is preferred. Familiarity with digital systems, computer organization, hardware and software design, and Linux/Unix/Windows environments is an asset. AMD is an equal opportunity employer and welcomes applications from all qualified candidates.",
+                "link": "https://www.itjobs.ca/en/offer/bc/vancouver/hardware-design-verification-engineering-intern-co-op-undergrad-summer-2025-onsite-hybrid/507de038-d75c-4f03-bcc0-27ea8337c9ee_en/"
+            }
+        },
+        {
+            "Design Verification Engineer": {
+                "Location": "Vancouver, BC",
+                "info": " Company: AMD\nWage: Not specified\nDescription: AMD is seeking a Design Verification Engineer to join their team in Vancouver, BC. The successful candidate will be responsible for verifying PCI Express designs using the latest UVM standard, developing comprehensive test plans, applying low power verification methodology, and measuring overall system performance of AMD's IP. The ideal candidate should possess strong problem-solving skills, a relentless commitment to meeting quality and development goals, and the ability to learn and perform in a technical capacity. Experience in digital design, testbench architecture, System Verilog, UVM, and programming languages such as C/C++, Java, or Python is preferred. A Bachelor's or Master's degree in ASIC or related field is required. AMD offers a competitive benefits package and is an equal opportunity employer.",
+                "link": "https://www.itjobs.ca/en/offer/bc/vancouver/design-verification-engineer/f45edf69-9ea3-43f5-94fe-4bc70ecbf769_en/"
+            }
+        },
+        {
+            "Senior Software Engineer - Hardware Modeling": {
+                "Location": "Vancouver, BC",
+                "info": " AMD: $130,000 - $150,000 a year\n\nDescription: As a Senior Software Engineer - Hardware Modeling at AMD, you will develop, test, and maintain architecture models for memory PHY and memory controllers used in firmware development and bootloader verification. You will work on cutting-edge technology, collaborating with a global team to create reusable IPs for AMD's products, including graphics, client, and server solutions.\n\nRequirements:\n\n* Excellent knowledge of C++, C, and any scripting language\n* Pre-silicon and post-silicon experience developing and debugging firmware\n* Experience with DDR/JEDEC standard IP, DDR PHY, or Memory Controller firmware development\n* Strong understanding of computer organization/architecture\n\nPreferred Experience:\n\n* Knowledge of SystemC, Verilog, and Python\n* VCS simulation and debug experience\n* Strong understanding of memory controllers, PHYs, and DRAM protocols\n* Applied knowledge of JEDEC standards in relationship to firmware development and debug\n* Laboratory experience with debug equipment (oscilloscopes, logic analyzers, etc.)\n\nEducation:\n\n* Bachelor's degree in Electrical or Computer Engineering and relevant experience, or\n* Master's or PhD degree in Electrical or Computer Engineering with relevant experience\n\nLocation: Vancouver, British Columbia",
+                "link": "https://www.itjobs.ca/en/offer/bc/vancouver/senior-software-engineer-hardware-modeling/43fe9fd3-1ecd-4182-827f-236484b334ec_en/"
+            }
+        },
+        {
+            "Design Verification Engineer": {
+                "Location": "Vancouver, BC",
+                "info": " Company: AMD\nWage: N/A\nDescription: AMD is seeking a Design Verification Engineer to join their team. The successful candidate will be responsible for verifying PCI Express designs using the latest UVM standard, developing comprehensive test plans, applying low power verification methodology, and measuring overall system performance of AMD's IP. The ideal candidate should be a creative problem solver, detail-oriented, and able to work effectively in a team environment. Strong knowledge of digital design, Verilog HDL, System Verilog, and experience with UVM is preferred. A Bachelor's or Master's degree in ASIC area with relevant experience is required. This position is remote and located in Vancouver, BC. AMD offers a competitive benefits package to eligible employees. AMD is an equal opportunity, inclusive employer and welcomes applications from all qualified candidates.",
+                "link": "https://www.itjobs.ca/en/offer/bc/vancouver/design-verification-engineer/0d90cc89-1eb4-4cdc-a6f8-deeb0ac9edd9_en/"
             }
         },
         {
             "Tester & Technical Support Specialist": {
                 "Location": "Remote\n       (Canada)",
-                "info": " job_info_request.get_response()",
+                "info": " Company: The Land Administration Company\nWage: $70,000 - $90,000 annual salary\nDescription: As a Tester/Technical Support Specialist, you will ensure the company's platform is functioning as expected and customers' needs are met. You will handle both technical quality assurance and direct customer support, requiring excellent written and verbal communication skills, as well as the ability to translate technical concepts to non-technical audiences. You will collaborate closely with the development team, test new features and functionality, author test plans, manage test events, and troubleshoot customer issues. Strong experience in software testing and technical support is required. Familiarity with spatial data systems and geospatial platforms is a plus. The role offers remote work within Canada, five weeks of paid PTO annually, medical and dental benefits, and support for professional development.",
                 "link": "https://jobs.techtalent.ca/tester-technical-support-specialist-528ec7fe3dc5"
             }
         },
         {
             "Technical Product Owner / Software Architect": {
                 "Location": "Remote\n       (Canada)",
-                "info": " job_info_request.get_response()",
+                "info": " Company: The Land Administration Company\nWage: $100,000 - $150,000 annual salary\nDescription: Technical Product Owner / Software Architect needed to join our platform development team. Leverage your background in developing detailed specifications and solutions, balancing cutting edge technical work with client and market needs. Play a key part in driving the evolution of our platform's spatial capabilities, ensuring innovative solutions in the geospatial domain. Become deeply familiar with our platform's spatial features and data model, using your expertise to analyze spatial data and geospatial processes. Collaborate with internal teams to ensure products stay relevant and innovative in the land administration domain. Remote within Canada, with occasional virtual and in-person collaboration with teams in PST, India, and Northern Ireland. Five weeks of paid PTO annually, medical & dental benefits, and support for professional development provided.",
                 "link": "https://jobs.techtalent.ca/technical-product-owner-software-architect-5856f89f11f4"
             }
         },
         {
             "Product Engineer": {
                 "Location": "Remote\n       (Canada)",
-                "info": " job_info_request.get_response()",
+                "info": " Company: The Land Administration Company\nWage: $100,000 - $150,000 annual salary\nDescription: The Land Administration Company is seeking an experienced Product Engineer to join their platform development team. In this role, you will leverage your background and experience in developing detailed specifications and solutions, balancing cutting-edge technical work with client and market needs. You will play a key part in driving the evolution of their platform's spatial capabilities, ensuring the delivery of innovative solutions in the rapidly evolving geospatial domain. You will become deeply familiar with the platform's spatial features and data model, using your expertise to analyze spatial data and geospatial processes. This is not a software development role, but your technical skills will allow you to bridge the gap between development teams, product definition, and customer-facing/domain understanding. As the company expands its product offerings, your experience with GIS and spatial data will help guide new features and improvements, keeping their solutions aligned with evolving customer needs and market trends. You will also gather and interpret inputs from customers, potential clients, and industry trends, while collaborating with internal teams to ensure that their products stay relevant and innovative in the land administration domain. The ideal candidate has deep geospatial experience and a curiosity to explore new directions. This role reports to the Chief Product Officer and offers remote work within Canada, five weeks of paid PTO annually, medical & dental benefits, support for professional development, and opportunities for mentorship and career growth.",
                 "link": "https://jobs.techtalent.ca/product-engineer-3cd88ea98805"
+            }
+        },
+        {
+            "Data Analytics Engineer": {
+                "Location": "Victoria, BC",
+                "info": " Company: BC Pension Corporation\nWage: Not disclosed\nDescription: The Data Analytics Engineer reports to the Assistant Director, (AD) Solution Engineering within the Information Technology Services branch. This role provides technical guidance, consultation, development, and implementation to enable data analytics and insights across the enterprise. Responsibilities include identifying shareable and open data, engineering data architecture, developing and implementing governance, standards, and practices related to data acquisition and transformation, and providing expert support for the delivery of required data to the data mart. The ideal candidate will have a Bachelor's degree in Computer Science, Information Systems, or a related field, along with 5-7 years of experience in a data engineering or related role. Strong communication skills, problem-solving abilities, and experience with data analytics tools and technologies are required. This position is located in Victoria, British Columbia, Canada, and offers a hybrid work model with both on-campus and off-campus work options.",
+                "link": "https://jobs.techtalent.ca/data-analytics-engineer-492ffb259aaf"
             }
         },
         {
             "Network Architect": {
                 "Location": "Remote",
-                "info": " job_info_request.get_response()",
+                "info": " Company: Westman Communications Group\nWage: Competitive compensation package\nDescription: Westman Communications Group (Westman) is seeking a highly motivated and experienced Network Engineer to join their growing team. The successful candidate will be responsible for designing, planning, implementing, and testing the core network infrastructure used for service delivery to residential and business customers. They will monitor capacity, plan network expansion, lead complex Core IP & OTN projects, collaborate with vendors and carriers, assess and enhance security practices, and maintain detailed network architecture documentation. The ideal candidate should have a minimum 2-year diploma or bachelor's degree in Information Technology, Computer Science, or a related field, along with one or more approved information technology certificates and/or technology related training, such as the CCNA. They should also possess a minimum of 5 years of experience in IP networking, IP routing and switching, and OTN, preferably within an ISP or MSO environment. Knowledge of various IP protocols, last mile access technologies, fiber transport technologies, and routing/switching concepts is required. Familiarity with MS-Visio, Lucid Chart, or other diagram software, as well as scripting languages for task automation, is preferred. The candidate must be available for occasional after-hours emergency support and be able to lift and carry up to 50 lbs. A valid driver's license and bondability are also required. This role may be performed remotely, depending on the candidate's qualifications. Apply at <https://westmancom.com/careers> to join the Westman Communications Group team.",
                 "link": "https://jobs.techtalent.ca/network-architect-08980ecafd93"
+            }
+        },
+        {
+            "Data Operations Engineer": {
+                "Location": "Vancouver, BC",
+                "info": " Company: Trulioo\nWage: Competitive salary and benefits package (exact wage not specified)\nDescription: Trulioo is seeking a detail-oriented and innovative Data Operations Engineer to join their team. The successful candidate will ensure the smooth, reliable, and efficient operation of Trulioo's data analytics infrastructure to support their growing internal analytics and reporting ecosystems. Responsibilities include managing data pipelines, optimizing data workflows, monitoring data quality, and collaborating closely with data engineering, analytics, and IT teams to support data-driven initiatives. The ideal candidate should have a Bachelor's degree in Computer Science, Information Technology, Data Engineering, or a related field, along with 3+ years of experience in a data operations, data engineering, or IT infrastructure role. Strong problem-solving skills, proficiency in programming languages such as Python and SQL, and experience with cloud platforms like AWS and data pipeline technologies such as Apache Airflow are required. Familiarity with data visualization tools, ETL/ELT tools, and Docker is preferred but not mandatory.",
+                "link": "https://jobs.techtalent.ca/data-operations-engineer-367f2dd69988"
             }
         },
         {
             "Automation Engineer": {
                 "Location": "Delta, BC",
-                "info": " job_info_request.get_response()",
+                "info": " Company: Mangrove Lithium\nWage: Competitive\nDescription: Mangrove Lithium is seeking an Automation Engineer with a strong background in industrial electrical control systems and experience with PLC and SCADA systems. The successful candidate will design, program, commission, and troubleshoot control systems for Mangrove's facilities, collaborate with cross-functional teams, and provide technical support. A Bachelor's degree in Electrical Engineering or a related field and 5+ years of industrial experience are required. Familiarity with AutoCAD and 3D plant modeling software is preferred. The ideal candidate should be a registered professional with Engineers and Geoscientists BC or have the ability to become one. Excellent critical thinking, analysis, and problem-solving skills are essential. This role offers growth and career development opportunities in a dynamic, highly motivated team environment.",
                 "link": "https://jobs.techtalent.ca/automation-engineer-c3fd9b24ef0a"
             }
         },
         {
             "Mechanical Engineer": {
                 "Location": "Delta, BC",
-                "info": " job_info_request.get_response()",
+                "info": " Company: Mangrove Lithium\nWage: Not specified\nDescription: Mangrove Lithium, a Canadian cleantech company, is seeking a Mechanical Engineer to join their multidisciplinary engineering team in Delta, BC. The successful candidate will work on the mechanical development and installation of chemical process plant designs, with a focus on supporting the build-out of the company's first-of-its-kind commercial plant. Responsibilities include designing and laying out various aspects of new chemical process plant infrastructure, reviewing documentation from external parties, participating in brainstorming and review meetings, and liaising with EPCs to refine plant characteristics. The ideal candidate should have a Bachelor's degree in Mechanical Engineering or a related field, 5+ years of industrial experience, previous experience working with and managing EPC companies, and familiarity with piping, pumps, solids handling, and rotating equipment. Being a registered professional with Engineers and Geoscientists BC or having the ability to become one is preferred. This is a hybrid role that requires on-site presence at least 3 days per week.",
                 "link": "https://jobs.techtalent.ca/mechanical-engineer-a99ea8d3ea0c"
             }
         },
         {
             "Customer Success Manager": {
                 "Location": "Vancouver, BC",
-                "info": " job_info_request.get_response()",
+                "info": " Company: Boomi\nWage: $106,848- $187,200 CAD annually (inclusive of commission)\nDescription: As a Customer Success Manager at Boomi, you will act as a liaison between customers and the company, ensuring successful implementation, optimization, and adoption of Boomi's Enterprise platform. You will engage with IT leaders and technical teams to provide guidance on complex system architectures, cloud integrations, data architecture, and API management. Your role will involve developing mutual success plans, driving platform adoption, providing strategic guidance, and building long-term relationships with customers. You will also need to manage customer escalations, provide data-driven insights, and conduct business reviews to ensure customer satisfaction and retention.\n\nTo excel in this role, you should have a Bachelor's Degree and 4+ years of experience in technical roles such as a Customer Success Manager, Solution Architect, Consultant, Systems Engineer, or Technical Account Manager with a focus on enterprise integration in the SaaS or related industry. Strong data acumen, technical expertise, and stakeholder management skills are essential for success in this position. Preferred qualifications include relevant certifications and in-depth knowledge of iPaaS, API, and cloud architecture.",
                 "link": "https://jobs.techtalent.ca/customer-success-manager-7b4da57bbf30"
             }
         }
