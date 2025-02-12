@@ -14,7 +14,6 @@ alljobs = []
 CLEANR = re.compile('<.*?>|&([a-z0-9]+|#[0-9]{1,6}|#x[0-9a-f]{1,6});')
 
 page_num=1
-itjobs_url=(f'https://www.itjobs.ca/en/search-jobs/?location=British+Columbia&location-id=BC&location-type=2&search=1&sort_order=1&page={page_num}')
 techTalent_url = ('https://jobs.techtalent.ca/?k=information%20technology&l=British%20Columbia,%20Canada')
 
 
@@ -37,6 +36,8 @@ def dump_content(product):
 
 
 for page in range(8):
+    itjobs_url=(f'https://www.itjobs.ca/en/search-jobs/?location=British+Columbia&location-id=BC&location-type=2&search=1&sort_order=1&page={page_num}')
+
     scraperITjobs= Scraper(itjobs_url,'div','content-wrapper','div','result-info-wrapper')
 
     starting = scraperITjobs.scraper_start()
@@ -58,6 +59,7 @@ for page in range(8):
     # location_class = input(str("what is the job's location class?"))
 
     getting_content = scraperITjobs.def_content(getting_wrapper,title_tag,title_class,location_tag,location_class)
+    alljobs.extend(getting_content)
     page_num+=1
 
 scraperTechTalent = Scraper(techTalent_url,'div','jobContainer','a','job-post-summary',True)
@@ -76,8 +78,8 @@ location_class = 'flex flex-shrink items-center'
 
 getting_content_tech = scraperTechTalent.def_content(getting_wrapper_tech, title_tag, title_class, location_tag, location_class, base_link,filtered_links)
     
-alljobs.append(getting_content)
-alljobs[0].extend(getting_content_tech)
+
+alljobs.extend(getting_content_tech)
 
 dumped = alljobs[0]
 
@@ -94,7 +96,7 @@ async def get_all_descriptions():
             data = json.load(joblist)
             for job_list in data:
                 for job in job_list:
-                    for job_title, job_details in job.items():
+                    for job_details in job:
                         if 'techtalent' in job_details['link']:
                             scraperfull_job_descript=Scraper(job_details['link'],'div','job-page__description','div','job-description-html',)
                             start_job_descript=scraperfull_job_descript.scraper_start()
