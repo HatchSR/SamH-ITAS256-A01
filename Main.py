@@ -1,121 +1,199 @@
-'''
-Class:356
-Name:Sam Hatch
-Description: a webscraping application that scrapes job posting sites
-'''
 import json
 import re
+import asyncio
+import time
 from classes.Scraper import Scraper
 from classes.AI_shortener import AI_shortening
-import asyncio
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.chrome.options import Options
+from selenium.common.exceptions import TimeoutException, NoSuchElementException
 
 total_jobs = []
 alljobs = []
 CLEANR = re.compile('<.*?>|&([a-z0-9]+|#[0-9]{1,6}|#x[0-9a-f]{1,6});')
 
-page_num=1
-techTalent_url = ('https://jobs.techtalent.ca/?k=information%20technology&l=British%20Columbia,%20Canada')
+def setup_selenium_driver():
+    chrome_options = Options()
+    chrome_options.add_argument('--headless')
+    chrome_options.add_argument('--no-sandbox')
+    chrome_options.add_argument('--disable-dev-shm-usage')
+    chrome_options.add_argument('--disable-gpu')
+    chrome_options.add_argument('--window-size=1920,1080')
+    # Add user agent to act more like a regular browser
+    chrome_options.add_argument('--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36')
+    return webdriver.Chrome(options=chrome_options)
+
+def scrape_techtalent():
+    driver = setup_selenium_driver()
+    try:
+        print("Starting TechTalent scraping...")
+        driver.get('https://jobs.techtalent.ca/?k=information%20technology&l=British%20Columbia,%20Canada')
+        
+        # Wait for page load
+        time.sleep(5)  # Give  page time to load
+        
+        print("Page loaded, looking for job listings...")
+        
+        
+        possible_selectors = [
+            ('class name', 'jobContainer'),
+            ('class name', 'job-post-summary'),
+            ('css selector', '.job-list-item'),
+            ('css selector', '[data-testid="job-listing"]'),
+            ('xpath', "//div[contains(@class, 'job')]")
+        ]
+        
+        jobs_data = []
+        for selector_type, selector in possible_selectors:
+            try:
+                print(f"Trying to find elements with {selector_type}: {selector}")
+                if selector_type == 'class name':
+                    elements = WebDriverWait(driver, 5).until(
+                        EC.presence_of_all_elements_located((By.CLASS_NAME, selector))
+                    )
+                elif selector_type == 'css selector':
+                    elements = WebDriverWait(driver, 5).until(
+                        EC.presence_of_all_elements_located((By.CSS_SELECTOR, selector))
+                    )
+                elif selector_type == 'xpath':
+                    elements = WebDriverWait(driver, 5).until(
+                        EC.presence_of_all_elements_located((By.XPATH, selector))
+                    )
+                
+                print(f"Found {len(elements)} elements with {selector}")
+                
+                # If found elements, try to extract job information
+                for element in elements:
+                    try:
+                        # Print elements HTML to debug
+                        print(f"Element HTML: {element.get_attribute('outerHTML')}")
+                        
+                        #different ways to get title
+                        title = None
+                        try:
+                            title = element.find_element(By.CSS_SELECTOR, 'h2.job-post-summary__title').text
+                        except NoSuchElementException:
+                            try:
+                                title = element.find_element(By.TAG_NAME, 'h2').text
+                            except NoSuchElementException:
+                                title = element.find_element(By.CSS_SELECTOR, '[class*="title"]').text
+                        
+                        # different ways to get location
+                        location = None
+                        try:
+                            location = element.find_element(By.CSS_SELECTOR, 'span.flex.flex-shrink.items-center').text
+                        except NoSuchElementException:
+                            try:
+                                location = element.find_element(By.CSS_SELECTOR, '[class*="location"]').text
+                            except NoSuchElementException:
+                                location = "British Columbia"  # Default if not found
+                        
+                        # different ways to get link
+                        link = None
+                        try:
+                            link = element.find_element(By.CSS_SELECTOR, 'a.job-post-summary').get_attribute('href')
+                        except NoSuchElementException:
+                            try:
+                                link = element.find_element(By.TAG_NAME, 'a').get_attribute('href')
+                            except NoSuchElementException:
+                                continue  # Skip if no link found
+                        
+                        if title and link:  # Only add if at least title and link
+                            print(f"Found job: {title} - {location}")
+                            jobs_data.append({
+                                title: {
+                                    'location': location,
+                                    'link': link
+                                }
+                            })
+                    except Exception as e:
+                        print(f"Error processing job element: {str(e)}")
+                        continue
+                
+                if jobs_data:  # If found jobs, break loop
+                    break
+                    
+            except TimeoutException:
+                print(f"Timeout trying selector: {selector}")
+                continue
+            except Exception as e:
+                print(f"Error with selector {selector}: {str(e)}")
+                continue
+        
+        if not jobs_data:
+            print("No jobs found with any selector")
+            
+        return jobs_data
+            
+    except Exception as e:
+        print(f"Major error in scrape_techtalent: {str(e)}")
+        return []
+    finally:
+        print("Closing browser...")
+        driver.quit()
 
 
+techtalent_jobs = scrape_techtalent()
+print(f"Found {len(techtalent_jobs)} jobs")
 
 def dump_content(product):
     try:
-        # Read the existing data from the file if it exists
         with open('data/joblist.json', 'r', encoding='utf-8') as joblist:
             existing_data = json.load(joblist)
     except (FileNotFoundError, json.JSONDecodeError):
-        # If the file doesn't exist or is empty, start with an empty list
         existing_data = []
-    
-    # Append the new data to the existing data
+   
     existing_data.append(product)
-    
-    # Write the combined data back to the file
+   
     with open('data/joblist.json', 'w', encoding='utf-8') as joblist:
         json.dump(existing_data, joblist, ensure_ascii=False, indent=4)
 
-
-for page in range(8):
-    itjobs_url=(f'https://www.itjobs.ca/en/search-jobs/?location=British+Columbia&location-id=BC&location-type=2&search=1&sort_order=1&page={page_num}')
-
-    scraperITjobs= Scraper(itjobs_url,'div','content-wrapper','div','result-info-wrapper')
-
+# ITJobs scraping
+page_num = 1
+while True:
+    itjobs_url = f'https://www.itjobs.ca/en/search-jobs/?location=British+Columbia&location-id=BC&location-type=2&search=1&sort_order=1&page={page_num}'
+   
+    scraperITjobs = Scraper(itjobs_url, 'div', 'content-wrapper', 'div', 'result-info-wrapper')
     starting = scraperITjobs.scraper_start()
     getting_wrapper = scraperITjobs.def_wrapper(starting)
-
-    #tags and classes in order for simplicity
-    title_tag='a'
-    title_class='offer-name'
-    info_tag='p'
-    info_class='offer-description'
-    location_tag='a'
-    location_class='location' 
-
-    # title_tag = input(str("what is the job's title tag?"))
-    # title_class = input(str("what is the job's title class?"))
-    # info_tag = input(str("what is the job's info tag?"))
-    # info_class = input(str("what is the job's info class?"))
-    # location_tag = input(str("what is the job's location tag?"))
-    # location_class = input(str("what is the job's location class?"))
-
-    getting_content = scraperITjobs.def_content(getting_wrapper,title_tag,title_class,location_tag,location_class)
+    getting_content = scraperITjobs.def_content(getting_wrapper, 'a', 'offer-name', 'a', 'location')
+   
     alljobs.extend(getting_content)
-    page_num+=1
+    page_num += 1
+   
+    if page_num > 2:
+        break
 
-scraperTechTalent = Scraper(techTalent_url,'div','jobContainer','a','job-post-summary',True)
-start_tech = scraperTechTalent.scraper_start()
-getting_wrapper_tech = scraperTechTalent.def_wrapper(start_tech)
+# TechTalent scraping using Selenium
+techtalent_jobs = scrape_techtalent()
+alljobs.extend(techtalent_jobs)
 
-pattern = r'href="([^"]+)"'
-match = re.findall(pattern,str(getting_wrapper_tech))
-filtered_links = [link for link in match if "/cdn-cgi" not in link and "http" not in link]
+dump_content(alljobs)
 
-base_link = 'https://jobs.techtalent.ca'
-title_tag = 'h2'
-title_class = 'job-post-summary__title'
-location_tag = 'span'
-location_class = 'flex flex-shrink items-center'
-
-getting_content_tech = scraperTechTalent.def_content(getting_wrapper_tech, title_tag, title_class, location_tag, location_class, base_link,filtered_links)
-    
-
-alljobs.extend(getting_content_tech)
-
-dumped = alljobs[0]
-
-
-dump_content(dumped)
-
-async def process_job_description(job_details):
-    ai_shortener = AI_shortening(job_details['description'])
-    job_details['info'] = await ai_shortener.get_response()
-    return job_details
-
+# job description processing
 async def get_all_descriptions():
     with open('data/joblist.json', 'r', encoding='utf-8') as joblist:
-            data = json.load(joblist)
-            for job_list in data:
-                for job in job_list:
-                    for job_details in job:
-                        if 'techtalent' in job_details['link']:
-                            scraperfull_job_descript=Scraper(job_details['link'],'div','job-page__description','div','job-description-html',)
-                            start_job_descript=scraperfull_job_descript.scraper_start()
-                            full_job_descript_getting_wrapper=scraperfull_job_descript.def_wrapper(start_job_descript)
-                            cleaned_descript= re.sub(CLEANR, '', str(full_job_descript_getting_wrapper))
-                            ai_summary = AI_shortening(cleaned_descript)
-                            job_details['info'] = await ai_summary.get_response()
-                            
-                        else:
-                            scraperfull_job_descript=Scraper(job_details['link'],'div','offer-wrapper','section','main-description-section',)
-                            start_job_descript=scraperfull_job_descript.scraper_start()
-                            full_job_descript_getting_wrapper=scraperfull_job_descript.def_wrapper(start_job_descript)
-                            cleaned_descript= re.sub(CLEANR, '', str(full_job_descript_getting_wrapper))
-                            ai_summary = AI_shortening(cleaned_descript)
-                            job_details['info'] = await ai_summary.get_response()
-
-
-
+        data = json.load(joblist)
+       
+        if isinstance(data, list) and len(data) > 0 and isinstance(data[0], list):
+            data = data[0]
+       
+        for job_object in data:
+            if isinstance(job_object, dict):
+                for job_title, job_details in job_object.items():  
+                    scraperfull_job_descript = Scraper(
+                        job_details['link'], 'div', 'offer-wrapper', 'section', 'main-description-section'
+                    )
+                    start_job_descript = scraperfull_job_descript.scraper_start()
+                    full_job_descript_getting_wrapper = scraperfull_job_descript.def_wrapper(start_job_descript)
+                    cleaned_descript = re.sub(CLEANR, '', str(full_job_descript_getting_wrapper))
+                    ai_summary = AI_shortening(cleaned_descript)
+                    job_details['info'] = await ai_summary.get_response()
+                   
     with open('data/joblist.json', 'w', encoding='utf-8') as joblist:
-        json.dump(data, joblist, indent=4, ensure_ascii=False)
+        json.dump([data], joblist, indent=4, ensure_ascii=False)
 
 asyncio.run(get_all_descriptions())

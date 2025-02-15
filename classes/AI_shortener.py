@@ -3,6 +3,7 @@ import json
 import dotenv
 import asyncio
 from typing import Optional
+from openai import OpenAI
 
 class AI_shortening:
     def __init__(self, job_descript):
@@ -11,34 +12,39 @@ class AI_shortening:
         self.ai_key = dotenv.get_key('.env', 'OPEN_AI_KEY')
         
     async def get_response(self) -> str:
+        print('generating ...')
         """
         Asynchronously get the AI-shortened response.
         Returns the summarized job description when complete.
         """
+        print('generating ...')
         try:
-            async with aiohttp.ClientSession() as session:
-                async with session.post(
-                    url="https://openrouter.ai/api/v1/chat/completions",
-                    headers={
-                        "Authorization": f"Bearer {self.ai_key}",
-                    },
-                    json={
-                        "model": "sophosympatheia/rogue-rose-103b-v0.2:free",
-                        "messages": [
-                            {
-                                "role": "user",
-                                "content": f"{self.job_descript},Summarize the job in that string with this exact template,ignore the information about the company, do not deviate from it in any way 'Company:(Company name) Wage:(Wage) Description:(description of job)' DO NOT ADD ANYTHING OUTSIDE OF THAT TEMPLATE"
-                            }
-                        ]
+            
+            client = OpenAI(
+                base_url="https://openrouter.ai/api/v1",
+                api_key= self.ai_key,
+                )
+
+            completion = client.chat.completions.create(
+                extra_headers={
+
+                },
+                extra_body={},
+                model="deepseek/deepseek-r1-distill-llama-70b:free",
+                messages=[
+                    {
+                    "role": "user",
+                    "content": f"{self.job_descript} summarize the job with the following template, DO NOT DEVIATE FROM THE TEMPLATE: Company:() Wage:() Description:()"
                     }
-                ) as response:
-                    if response.status == 200:
-                        response_data = await response.json()
-                        reply = response_data.get('choices', [{}])[0].get('message', {}).get('content', 'No reply found')
-                        return reply
-                    else:
-                        response_text = await response.text()
-                        return f"Error: {response.status}, {response_text}"
+                ]
+                )
+            print(f"Raw API response: {completion}")
+            return completion.choices[0].message.content
+
                         
         except Exception as e:
             return f"Error making API request: {str(e)}"
+
+
+
+

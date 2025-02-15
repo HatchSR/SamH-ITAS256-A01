@@ -5,3 +5,5 @@ lxml
 certifi
 python-dotenv
 aiohttp
+openai
+selenium

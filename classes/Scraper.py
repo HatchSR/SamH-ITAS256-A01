@@ -3,10 +3,7 @@ import json
 
 from classes.Soup import Soup
 
-#TODO: 1.use beautiful soup to go to the site of each of the offers,
-#       2.get the description and 
-#       3.send it off to the ai shortener
-#       4.stick it into the description dictionary entry
+
 
 class Scraper:
     #initialize the scraper with the main information
